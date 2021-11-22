@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <div >
-      Dalal Tiles
-    </div>
-  )
-}
+import Layout from "@components/Layout";
+
+const Home = () => {
+  return <Layout />;
+};
+
+export default Home;
