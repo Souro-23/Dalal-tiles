@@ -1,0 +1,13 @@
+.call-now {
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+
+  a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
