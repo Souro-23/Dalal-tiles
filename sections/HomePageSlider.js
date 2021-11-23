@@ -1,7 +1,9 @@
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { EffectFade } from "swiper";
+import SwiperCore, { EffectFade, Navigation } from "swiper";
+import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 
-SwiperCore.use([EffectFade]);
+SwiperCore.use([EffectFade, Navigation]);
 
 const HomePageSlides = [
   {
@@ -25,9 +27,24 @@ const HomePageSlides = [
 ];
 
 const HomePageSlider = () => {
+  const navigationPrevRef = useRef(null);
+  const navigationNextRef = useRef(null);
+
   return (
     <div className="homepage-slider">
-      <Swiper slidesPerView={1} effect={"fade"}>
+      <Swiper
+        slidesPerView={1}
+        effect={"fade"}
+        loop={true}
+        navigation={{
+          prevEl: navigationPrevRef.current,
+          nextEl: navigationNextRef.current,
+        }}
+        onBeforeInit={(swiper) => {
+          swiper.params.navigation.prevEl = navigationPrevRef.current;
+          swiper.params.navigation.nextEl = navigationNextRef.current;
+        }}
+      >
         {HomePageSlides.map((data, index) => (
           <SwiperSlide key={index}>
             <HomePageSlide
@@ -37,6 +54,14 @@ const HomePageSlider = () => {
             />
           </SwiperSlide>
         ))}
+        <div className="navigation-buttons">
+          <div ref={navigationPrevRef}>
+            <HiOutlineArrowLeft />
+          </div>
+          <div ref={navigationNextRef}>
+            <HiOutlineArrowRight />
+          </div>
+        </div>
       </Swiper>
     </div>
   );
