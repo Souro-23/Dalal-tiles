@@ -1,0 +1,34 @@
+.homepage-slider {
+}
+
+.homepage-slide {
+  position: relative;
+  height: calc(100vh - 80px);
+  padding: 100px;
+  color: #fff;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .slide-heading {
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    max-width: 13ch;
+    letter-spacing: 0.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .slide-description {
+    font-family: "Nunito";
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 60ch;
+  }
+}

@@ -1,8 +1,8 @@
 .layout-container {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 70px calc(75% - 35px) calc(25% - 35px);
-  grid-template-rows: 70px 100vh 100px;
+  grid-template-columns: 70px calc(80% - 35px) calc(20% - 35px);
+  grid-template-rows: 70px auto 70px;
   gap: 0px 0px;
   grid-template-areas:
     "side-nav navbar call-now"
