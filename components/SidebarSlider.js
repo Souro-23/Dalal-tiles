@@ -4,14 +4,24 @@ import SwiperCore, { EffectFade, Navigation } from "swiper";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { HomePageSlides } from "_data/HomePageSlides";
 
-SwiperCore.use([EffectFade, Navigation]);
-
-const HomePageSlider = () => {
+const SidebarSlider = ({ heading, className = "" }) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
 
   return (
-    <div className="homepage-slider">
+    <div className={`sidebar-slider ${className}`}>
+      <div className="header">
+        <div className="slider-heading">{heading}</div>
+        <div className="navigation-buttons">
+          <div ref={navigationPrevRef}>
+            <HiOutlineArrowLeft />
+          </div>
+          <div ref={navigationNextRef}>
+            <HiOutlineArrowRight />
+          </div>
+        </div>
+      </div>
+
       <Swiper
         slidesPerView={1}
         effect={"fade"}
@@ -27,35 +37,21 @@ const HomePageSlider = () => {
       >
         {HomePageSlides.map((data, index) => (
           <SwiperSlide key={index}>
-            <HomePageSlide
-              image={data.image}
-              title={data.title}
-              description={data.description}
-            />
+            <SidebarSlide image={data.image} title={data.title} />
           </SwiperSlide>
         ))}
-        <div className="navigation-buttons">
-          <div ref={navigationPrevRef}>
-            <HiOutlineArrowLeft />
-          </div>
-          <div ref={navigationNextRef}>
-            <HiOutlineArrowRight />
-          </div>
-        </div>
       </Swiper>
     </div>
   );
 };
 
-const HomePageSlide = ({ image, title, description }) => {
+const SidebarSlide = ({ image, title }) => {
   return (
-    <div className="homepage-slide">
+    <div className="sidebar-slide">
       <p className="slide-heading">{title}</p>
-      <p className="slide-description">{description}</p>
       <img src={image} alt={title} className="slide-background" />
-      <button className="btn btn-outline-white">Know More</button>
     </div>
   );
 };
 
-export default HomePageSlider;
+export default SidebarSlider;

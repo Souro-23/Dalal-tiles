@@ -3,6 +3,7 @@ import Navbar from "@components/Layout/Navbar";
 import CallNow from "@components/Layout/CallNow";
 import Footer from "@components/Layout/Footer";
 import HomePageSlider from "@section/HomePageSlider";
+import HomePageSidebar from "@section/HomePageSidebar";
 
 const Layout = () => {
   return (
@@ -13,7 +14,9 @@ const Layout = () => {
       <div className="main">
         <HomePageSlider />
       </div>
-      <div className="sidebar">Sidebar</div>
+      <div className="sidebar">
+        <HomePageSidebar />
+      </div>
       <Footer />
     </div>
   );
