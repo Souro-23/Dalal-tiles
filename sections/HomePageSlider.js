@@ -1,4 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { EffectFade } from "swiper";
+
+SwiperCore.use([EffectFade]);
 
 const HomePageSlides = [
   {
@@ -24,7 +27,7 @@ const HomePageSlides = [
 const HomePageSlider = () => {
   return (
     <div className="homepage-slider">
-      <Swiper spaceBetween={50} slidesPerView={1}>
+      <Swiper slidesPerView={1} effect={"fade"}>
         {HomePageSlides.map((data, index) => (
           <SwiperSlide key={index}>
             <HomePageSlide
@@ -45,6 +48,7 @@ const HomePageSlide = ({ image, title, description }) => {
       <p className="slide-heading">{title}</p>
       <p className="slide-description">{description}</p>
       <img src={image} alt={title} className="slide-background" />
+      <button className="btn btn-outline-white">Know More</button>
     </div>
   );
 };

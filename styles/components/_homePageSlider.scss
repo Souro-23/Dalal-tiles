@@ -1,9 +1,6 @@
-.homepage-slider {
-}
-
 .homepage-slide {
   position: relative;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 120px);
   padding: 100px;
   color: #fff;
   overflow: hidden;
@@ -12,6 +9,8 @@
     position: absolute;
     inset: 0;
     z-index: -1;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -30,5 +29,6 @@
     font-size: 1.2rem;
     font-weight: 300;
     max-width: 60ch;
+    margin-bottom: 1rem;
   }
 }
