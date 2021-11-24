@@ -16,6 +16,10 @@
       gap: 10px;
       font-size: 1rem;
 
+      div {
+        cursor: pointer;
+      }
+
       div:active {
         transform: scale(0.9);
       }
