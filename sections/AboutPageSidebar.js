@@ -8,9 +8,9 @@ const AboutPageSidebar = () => {
 
       <SidebarSlider heading="Featured Products" className="border-b" />
 
-      <div>
+      <div className="our-clients">
         <div className="sidebar-heading">Our clients</div>
-        <div className="grid-3">
+        <div className="grid-3 ">
           {OurClients.map((client, index) => (
             <img src={client.logo} alt={client.name} />
           ))}
