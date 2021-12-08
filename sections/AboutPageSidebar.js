@@ -12,7 +12,7 @@ const AboutPageSidebar = () => {
         <div className="sidebar-heading">Our clients</div>
         <div className="grid-3 ">
           {OurClients.map((client, index) => (
-            <img src={client.logo} alt={client.name} />
+            <img src={client.logo} alt={client.name} key={index} />
           ))}
         </div>
       </div>
