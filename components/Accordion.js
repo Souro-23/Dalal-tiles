@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 
 const Accordion = (props) => {
   const [selected, setSelected] = useState(null);
-  const toggle = (i) => {
-    if (selected === i) {
+  const toggle = (index) => {
+    if (selected === index) {
       return setSelected(null);
     }
-    setSelected(i);
+    setSelected(index);
   };
 
   useEffect(() => {
@@ -19,16 +19,16 @@ const Accordion = (props) => {
 
   return (
     <div className="accordion">
-      {props.data.map((item, i) => (
-        <div className="item">
+      {props.data.map((item, index) => (
+        <div className="item" key={index}>
           <div
-            className={selected === i ? "title active" : "title"}
-            onClick={() => toggle(i)}
+            className={selected === index ? "title active" : "title"}
+            onClick={() => toggle(index)}
           >
             <p>{item.title}</p>
             <FiChevronDown size={25} />
           </div>
-          <div className={selected === i ? "content show" : "content"}>
+          <div className={selected === index ? "content show" : "content"}>
             {item.content}
           </div>
         </div>
