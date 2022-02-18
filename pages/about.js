@@ -1,18 +1,26 @@
 import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
 import AboutPageSidebar from "@section/AboutPageSidebar";
+import History from "@section/AccordionContents/History";
+import ManufacturingFacility from "@section/AccordionContents/ManufacturingFacility";
+import Profile from "@section/AccordionContents/Profile";
 
 const About = () => {
   const data = [
     {
-      title: "History",
-      content: "History data",
+      title: "Profile",
+      content: <Profile />,
     },
     {
-      title: "Profile",
-      content: "Profile Data",
+      title: "History",
+      content: <History />,
+    },
+    {
+      title: "Manufacturing Facility",
+      content: <ManufacturingFacility />,
     },
   ];
+
   return (
     <Layout sidebar={<AboutPageSidebar />}>
       <div className="about-banner">

@@ -1,4 +1,6 @@
 .layout-container {
+  height: 100vh;
+  overflow: hidden;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 70px calc(80% - 35px) calc(20% - 35px);
@@ -32,6 +34,12 @@
 
 .main {
   grid-area: main;
+  overflow-y: scroll;
   border-bottom: 2px solid #000;
   border-right: 2px solid #000;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
 }
