@@ -11,6 +11,7 @@
   background-size: cover;
 
   border-bottom: 2px solid #000;
+  transition: all 1s cubic-bezier(0, 1, 0, 1);
 
   .banner-heading {
     color: #fff;
@@ -30,8 +31,9 @@
   }
 
   &.hidden {
+    border-bottom: 0;
     max-height: 0;
+    padding: 0 50px;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
   }
 }

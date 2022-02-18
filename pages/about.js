@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
 import AboutPageSidebar from "@section/AboutPageSidebar";
@@ -21,9 +22,11 @@ const About = () => {
     },
   ];
 
+  const [activeAccordion, setActiveAccordion] = useState(false);
+
   return (
     <Layout sidebar={<AboutPageSidebar />}>
-      <div className="about-banner">
+      <div className={activeAccordion ? "about-banner hidden" : "about-banner"}>
         <p className="banner-heading">DALAL TILES</p>
         <p className="banner-description">
           Dalal Tiles has its history owed to its pioneers Mr. Anil Dalal and
@@ -38,7 +41,7 @@ const About = () => {
       </div>
 
       {/* Accordion */}
-      <Accordion data={data} />
+      <Accordion data={data} setActiveAccordion={setActiveAccordion} />
     </Layout>
   );
 };

@@ -1,6 +1,6 @@
 import { FiChevronDown } from "react-icons/fi";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Accordion = (props) => {
   const [selected, setSelected] = useState(null);
@@ -10,6 +10,12 @@ const Accordion = (props) => {
     }
     setSelected(i);
   };
+
+  useEffect(() => {
+    if (props.setActiveAccordion) {
+      props.setActiveAccordion(selected !== null);
+    }
+  }, [selected]);
 
   return (
     <div className="accordion">
