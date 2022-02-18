@@ -6,6 +6,7 @@ import { Navigation } from "swiper";
 const HorizontalSlider = (props) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
+
   return (
     <div className="horizontal-slider">
       <div className="navigation-buttons black prev-btn">
@@ -19,15 +20,13 @@ const HorizontalSlider = (props) => {
         </div>
       </div>
       <Swiper
-        slidesPerView={props.slidesPerView || 1}
+        slidesPerView={props.slidesNumber || 1}
         spaceBetween={30}
-        navigation={true}
         modules={[Navigation]}
         loop={true}
         pagination={{
           clickable: true,
         }}
-        className="mySwiper"
         navigation={{
           prevEl: navigationPrevRef.current,
           nextEl: navigationNextRef.current,

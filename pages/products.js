@@ -35,7 +35,7 @@ const products = () => {
   return (
     <Layout sidebar={<AboutPageSidebar />}>
       <div className="products-page">
-        <HorizontalSlider slidesPerView={3}>
+        <HorizontalSlider slidesNumber={3}>
           {data.map((item, index) => (
             <SwiperSlide className="products-swiper-slide" key={index}>
               <Link href={item.link}>
