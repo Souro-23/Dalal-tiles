@@ -1,55 +1,63 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import { Navigation } from "swiper";
+import Link from "next/link";
+import { SwiperSlide } from "swiper/react";
+import Layout from "@components/Layout";
+import HorizontalSlider from "@components/HorizontalSlider";
+import AboutPageSidebar from "@section/AboutPageSidebar";
+import { BsFillCloudDownloadFill } from "react-icons/bs";
 
 const products = () => {
-  const navigationPrevRef = useRef(null);
-  const navigationNextRef = useRef(null);
-
+  const data = [
+    {
+      title: "Landscape Products",
+      image: "/products/slides/image-1.jpg",
+      link: "products/landscape-products",
+      downloadLink: "",
+    },
+    {
+      title: "GRC Architectural Elements",
+      image: "/products/slides/image-2.jpg",
+      link: "products/landscape-products",
+      downloadLink: "",
+    },
+    {
+      title: "Wall Tiles and Panels",
+      image: "/products/slides/image-1.jpg",
+      link: "products/landscape-products",
+      downloadLink: "",
+    },
+    {
+      title: "Landscape Products 1",
+      image: "/products/slides/image-2.jpg",
+      link: "products/landscape-products",
+      downloadLink: "",
+    },
+  ];
   return (
-    <div className="products-page">
-      <div className="navigation-buttons black prev-btn">
-        <div ref={navigationPrevRef}>
-          <HiOutlineArrowLeft />
-        </div>
+    <Layout sidebar={<AboutPageSidebar />}>
+      <div className="products-page">
+        <HorizontalSlider slidesPerView={3}>
+          {data.map((item, index) => (
+            <SwiperSlide className="products-swiper-slide" key={index}>
+              <Link href={item.link}>
+                <a>
+                  <div className="products-page-slide" key={index}>
+                    <h2>{item.title}</h2>
+                    <div className="image-wrapper">
+                      <img src={item.image} alt={item.title} />
+                    </div>
+                  </div>
+                </a>
+              </Link>
+              <Link href="#">
+                <a className="download-btn">
+                  <BsFillCloudDownloadFill /> Download
+                </a>
+              </Link>
+            </SwiperSlide>
+          ))}
+        </HorizontalSlider>
       </div>
-      <div className="navigation-buttons black next-btn">
-        <div ref={navigationNextRef}>
-          <HiOutlineArrowRight />
-        </div>
-      </div>
-      <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
-        navigation={true}
-        modules={[Navigation]}
-        loop={true}
-        pagination={{
-          clickable: true,
-        }}
-        className="mySwiper"
-        navigation={{
-          prevEl: navigationPrevRef.current,
-          nextEl: navigationNextRef.current,
-        }}
-        onBeforeInit={(swiper) => {
-          swiper.params.navigation.prevEl = navigationPrevRef.current;
-          swiper.params.navigation.nextEl = navigationNextRef.current;
-        }}
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </div>
+    </Layout>
   );
 };
 

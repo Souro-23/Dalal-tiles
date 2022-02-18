@@ -19,7 +19,7 @@ const HorizontalSlider = (props) => {
         </div>
       </div>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={props.slidesPerView || 1}
         spaceBetween={30}
         navigation={true}
         modules={[Navigation]}
