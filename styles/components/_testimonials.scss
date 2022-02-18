@@ -1,0 +1,29 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  height: 100%;
+
+  .image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .description {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 0.95rem;
+  }
+
+  .designation {
+    font-size: 0.9rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+}

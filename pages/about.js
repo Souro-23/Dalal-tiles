@@ -5,6 +5,7 @@ import AboutPageSidebar from "@section/AboutPageSidebar";
 import History from "@section/AccordionContents/History";
 import ManufacturingFacility from "@section/AccordionContents/ManufacturingFacility";
 import Profile from "@section/AccordionContents/Profile";
+import Achievements from "@section/AccordionContents/Achievements";
 
 const About = () => {
   const data = [
@@ -19,6 +20,10 @@ const About = () => {
     {
       title: "Manufacturing Facility",
       content: <ManufacturingFacility />,
+    },
+    {
+      title: "Achievements",
+      content: <Achievements />,
     },
   ];
 

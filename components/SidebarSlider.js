@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { EffectFade, Navigation } from "swiper";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { HomePageSlides } from "_data/HomePageSlides";
 
