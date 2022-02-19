@@ -11,7 +11,7 @@ const SidebarSlider = ({ heading, className = "" }) => {
     <div className={`sidebar-slider ${className}`}>
       <div className="header">
         <div className="slider-heading">{heading}</div>
-        <div className="navigation-buttons">
+        <div className="nav-buttons">
           <div ref={navigationPrevRef}>
             <HiOutlineArrowLeft />
           </div>

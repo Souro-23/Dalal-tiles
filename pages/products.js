@@ -1,64 +1,68 @@
-import Link from "next/link";
-import { SwiperSlide } from "swiper/react";
+import { useState } from "react";
+import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
-import HorizontalSlider from "@components/HorizontalSlider";
 import AboutPageSidebar from "@section/AboutPageSidebar";
-import { BsFillCloudDownloadFill } from "react-icons/bs";
 
-const products = () => {
+const Products = () => {
   const data = [
     {
-      title: "Landscape Products",
-      image: "/products/slides/image-1.jpg",
-      link: "products/landscape-products",
-      downloadLink: "",
+      title: "Landscape Products & Urban Accessories",
+      content: <h1>Hello</h1>,
     },
     {
-      title: "GRC Architectural Elements",
-      image: "/products/slides/image-2.jpg",
-      link: "products/landscape-products",
-      downloadLink: "",
+      title: "Wall Tiles",
+      content: <h1>Hello</h1>,
     },
     {
-      title: "Wall Tiles and Panels",
-      image: "/products/slides/image-1.jpg",
-      link: "products/landscape-products",
-      downloadLink: "",
+      title: "Green Building Products",
+      content: <h1>Hello</h1>,
     },
     {
-      title: "Landscape Products 1",
-      image: "/products/slides/image-2.jpg",
-      link: "products/landscape-products",
-      downloadLink: "",
+      title: "Architectural Elements",
+      content: <h1>Hello</h1>,
     },
   ];
+
+  const [activeAccordion, setActiveAccordion] = useState(false);
+
   return (
     <Layout sidebar={<AboutPageSidebar />}>
-      <div className="products-page">
-        <HorizontalSlider slidesNumber={3}>
-          {data.map((item, index) => (
-            <SwiperSlide className="products-swiper-slide" key={index}>
-              <Link href={item.link}>
-                <a>
-                  <div className="products-page-slide" key={index}>
-                    <h2>{item.title}</h2>
-                    <div className="image-wrapper">
-                      <img src={item.image} alt={item.title} />
-                    </div>
-                  </div>
-                </a>
-              </Link>
-              <Link href="#">
-                <a className="download-btn">
-                  <BsFillCloudDownloadFill /> Download
-                </a>
-              </Link>
-            </SwiperSlide>
-          ))}
-        </HorizontalSlider>
+      <div
+        className={
+          activeAccordion ? "products-banner hidden" : "products-banner"
+        }
+      >
+        <div className="image-wrapper">
+          <img src="/products/banner.png" alt="Producta banner" />
+        </div>
+        <div className="banner-content">
+          <div className="banner-heading">
+            Our Freshly Updated Catalogue is out now. Get your digital copy to
+            explore our whole range.
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do nim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est labo
+          </p>
+
+          <button className="btn btn-outline">Download Catalouge</button>
+        </div>
       </div>
+
+      <Accordion data={data} setActiveAccordion={setActiveAccordion} />
     </Layout>
   );
 };
 
-export default products;
+export default Products;
