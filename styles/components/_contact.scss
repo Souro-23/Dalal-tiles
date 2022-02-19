@@ -6,7 +6,7 @@
   padding: 30px;
 
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 
   .contact-section {
@@ -33,7 +33,7 @@
   color: #101010;
   padding: 30px;
   box-sizing: border-box;
-  width: calc(100% - 20px);
+  width: 100%;
 
   .form-group {
     // width: 100%;
