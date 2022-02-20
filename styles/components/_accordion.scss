@@ -38,3 +38,11 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .accordion {
+    .title {
+      padding: 15px 20px;
+    }
+  }
+}

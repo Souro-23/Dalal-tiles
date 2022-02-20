@@ -28,12 +28,20 @@ const ProductsSlider = (props) => {
         </div>
 
         <Swiper
-          slidesPerView={4}
+          // slidesPerView={4}
           spaceBetween={0}
           modules={[Navigation]}
           loop={true}
-          pagination={{
-            clickable: true,
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 4,
+            },
           }}
           navigation={{
             prevEl: navigationPrevRef.current,
@@ -79,8 +87,16 @@ const ProductsSlider = (props) => {
           spaceBetween={0}
           modules={[Navigation]}
           loop={true}
-          pagination={{
-            clickable: true,
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 4,
+            },
           }}
           navigation={{
             prevEl: navigationPrevRef.current,

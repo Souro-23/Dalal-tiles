@@ -13,3 +13,13 @@
     padding: 20px;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .accordion-grid-2 {
+    grid-template-columns: 100%;
+
+    > .image-slider {
+      max-height: 450px;
+    }
+  }
+}
