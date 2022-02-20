@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Navigation } from "swiper";
 
 const ProductsSlider = (props) => {
@@ -17,14 +17,14 @@ const ProductsSlider = (props) => {
           ref={navigationPrevRef}
           className="products-nav-buttons prev-btn border-bottom"
         >
-          <HiOutlineArrowLeft />
+          <IoIosArrowBack />
         </div>
 
         <div
           ref={navigationNextRef}
           className="products-nav-buttons next-btn border-bottom"
         >
-          <HiOutlineArrowRight />
+          <IoIosArrowForward />
         </div>
 
         <Swiper
@@ -67,11 +67,11 @@ const ProductsSlider = (props) => {
       {/* Slider 2 */}
       <div className="products-slider">
         <div ref={navigationPrevRef} className="products-nav-buttons prev-btn">
-          <HiOutlineArrowLeft />
+          <IoIosArrowBack />
         </div>
 
         <div ref={navigationNextRef} className="products-nav-buttons next-btn">
-          <HiOutlineArrowRight />
+          <IoIosArrowForward />
         </div>
 
         <Swiper
