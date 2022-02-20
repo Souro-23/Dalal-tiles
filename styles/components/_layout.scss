@@ -43,3 +43,30 @@
     background: transparent;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .layout-container {
+    height: auto;
+    grid-template-columns: 70px calc(100% - 70px);
+    grid-template-rows: 70px auto auto 48px;
+    grid-template-areas:
+      "side-nav navbar "
+      "side-nav main "
+      "side-nav sidebar "
+      "side-nav footer";
+  }
+
+  .call-now {
+    display: none;
+  }
+
+  .visit-btn {
+    display: none;
+  }
+
+  .main,
+  .footer,
+  .navbar {
+    border-right: 0;
+  }
+}
