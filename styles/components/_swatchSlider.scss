@@ -1,0 +1,38 @@
+.swatch-slider {
+  height: 400px;
+  width: 100%;
+  position: relative;
+
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    z-index: 999;
+    background: #000;
+    top: 50%;
+    transform: translateY(-50%);
+
+    > div {
+      color: #fff;
+      font-size: 2rem;
+    }
+  }
+
+  .next-btn {
+    right: 20px;
+  }
+
+  .prev-btn {
+    left: 20px;
+  }
+}
+
+.swatch-slide {
+  height: 400px;
+  width: 100%;
+
+  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
