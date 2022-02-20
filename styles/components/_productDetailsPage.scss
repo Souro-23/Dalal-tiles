@@ -1,0 +1,169 @@
+$border: 1px solid #000;
+
+.product-details-page {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+
+  .product-image {
+    border-bottom: $border;
+    height: 100%;
+    width: 100%;
+
+    > img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+}
+
+.description-grid {
+  border-bottom: $border;
+  border-left: $border;
+  display: grid;
+  grid-template-columns: 37% 37% 26%;
+  align-content: stretch;
+  grid-template-rows: min-conten;
+
+  .grid-cell {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    > .detail {
+      height: 100%;
+    }
+  }
+
+  .heading {
+    padding: 10px;
+    border-bottom: $border;
+    font-weight: 700;
+    border-top: $border;
+    border-right: $border;
+  }
+
+  .detail {
+    border-right: $border;
+    padding: 10px;
+
+    &.no-pd {
+      padding: 0;
+    }
+  }
+
+  .product-name {
+    grid-column: 1/4;
+    padding: 10px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    border-right: $border;
+    display: flex;
+    align-items: center;
+  }
+
+  .colors {
+    grid-column: 1/3;
+
+    > .detail {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .color-block {
+      content: "";
+      height: 40px;
+      width: 40px;
+      background: #000;
+    }
+  }
+
+  .texture {
+    > .detail {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .enquire .detail {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    > * {
+      width: 100%;
+    }
+  }
+
+  .detail-btn {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+
+    > svg {
+      font-size: 1.5rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .specification > .detail {
+    display: flex;
+    font-size: 0.9rem;
+    border: 0;
+    text-align: center;
+    .heading {
+      border: 0;
+      border-bottom: $border;
+      width: 100%;
+    }
+
+    .detail {
+      border: 0;
+      width: 100%;
+    }
+
+    > * {
+      flex: 1 1 100%;
+    }
+  }
+}
+
+.size-column {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-right: $border;
+}
+
+.texture-box {
+  text-align: center;
+  display: inline-block;
+
+  .image {
+    height: 70px;
+    width: 70px;
+    background: #000;
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+}

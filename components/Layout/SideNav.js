@@ -4,7 +4,7 @@ const SideNav = () => {
   return (
     <div className="side-nav">
       <div className="logo">
-        <img src="dalal-tiles.png" />
+        <img src="/dalal-tiles.png" />
       </div>
 
       <div className="sm-links">
