@@ -142,54 +142,8 @@ const UrbanAccesories = (props) => {
 
   return (
     <>
-      <ProductsSlider>
-        {data.map((item, index) => (
-          <SwiperSlide key={index} style={{ height: "auto" }}>
-            {({ isActive }) => (
-              <Slide
-                index={index}
-                isActive={isActive}
-                setActiveSlide={setActiveSlide}
-                image={item.image}
-                name={item.name}
-              />
-            )}
-          </SwiperSlide>
-        ))}
-      </ProductsSlider>
-
-      {/* Sub categories */}
-      <ProductsSlider>
-        {data[activeSlide].subcategories.map((item, index) => (
-          <SwiperSlide key={index} style={{ height: "auto" }}>
-            <div className="products-slider-slide">
-              <img src={item.image} />
-            </div>
-          </SwiperSlide>
-        ))}
-      </ProductsSlider>
+      <ProductsSlider data={data} />
     </>
-  );
-};
-
-const Slide = (props) => {
-  useEffect(() => {
-    if (props.isActive === true) {
-      props.setActiveSlide(props.index);
-    }
-  }, [props]);
-
-  return (
-    <div
-      className={
-        props.isActive
-          ? "products-slider-slide border-bottom active"
-          : "products-slider-slide border-bottom"
-      }
-    >
-      <img src={props.image} />
-      <div className="product-name">{props.name}</div>
-    </div>
   );
 };
 
