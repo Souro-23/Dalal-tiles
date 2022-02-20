@@ -49,3 +49,15 @@
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .sidebar,
+  .homepage-sidebar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    > .border-b {
+      border: 0;
+    }
+  }
+}
