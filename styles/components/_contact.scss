@@ -77,3 +77,15 @@
     }
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .contact-page {
+    grid-template-columns: 100%;
+
+    .contact-sidebar {
+      .contact-section:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

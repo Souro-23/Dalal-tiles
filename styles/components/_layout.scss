@@ -70,3 +70,25 @@
     border-right: 0;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .layout-container {
+    height: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto 48px;
+    grid-template-areas:
+      "main "
+      "sidebar "
+      "footer";
+    margin: 20px;
+    border: 1px solid #000;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .side-nav {
+    display: none;
+  }
+}

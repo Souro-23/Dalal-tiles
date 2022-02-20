@@ -147,3 +147,22 @@
     overflow: hidden;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .products-banner {
+    grid-template-columns: 100%;
+
+    .image-wrapper {
+      height: 500px;
+    }
+
+    .banner-content {
+      padding: 20px;
+    }
+
+    .banner-heading {
+      font-size: 2rem !important;
+      line-height: 2.5rem !important;
+    }
+  }
+}

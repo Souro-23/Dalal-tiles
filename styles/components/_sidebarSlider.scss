@@ -51,13 +51,22 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .sidebar,
-  .homepage-sidebar {
+  .sidebar {
     display: grid;
     grid-template-columns: 50% 50%;
 
     > .border-b {
       border: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .sidebar {
+    display: unset;
+
+    > .border-b {
+      border-bottom: 1px solid #000;
     }
   }
 }
