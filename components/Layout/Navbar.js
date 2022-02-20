@@ -1,4 +1,5 @@
 import { NavLink } from "./Navlink";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -19,6 +20,13 @@ const Navbar = () => {
         <NavLink href="/contact" className="nav-link">
           Contact
         </NavLink>
+      </div>
+
+      <a href="#" className="visit-btn">
+        Book a visit
+      </a>
+      <div className="call-btn">
+        <FaPhoneAlt />
       </div>
     </div>
   );
