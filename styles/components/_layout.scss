@@ -60,10 +60,6 @@
     display: none;
   }
 
-  .visit-btn {
-    display: none;
-  }
-
   .main,
   .footer,
   .navbar {
@@ -75,20 +71,17 @@
   .layout-container {
     height: auto;
     grid-template-columns: 100%;
-    grid-template-rows: auto auto 48px;
+    grid-template-rows: auto auto auto 48px;
     grid-template-areas:
-      "main "
-      "sidebar "
+      "main"
+      "sidebar"
+      "side-nav"
       "footer";
     margin: 20px;
     border: 1px solid #000;
   }
 
   .navbar {
-    display: none;
-  }
-
-  .side-nav {
     display: none;
   }
 }
