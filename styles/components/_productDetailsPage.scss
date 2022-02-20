@@ -1,22 +1,20 @@
 $border: 1px solid #000;
 
-.product-details-page {
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 25% 75%;
-  }
+.products-grid-2 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
 
-  .product-image {
-    border-bottom: $border;
+.product-image {
+  border-bottom: $border;
+  height: 100%;
+  width: 100%;
+
+  > img {
     height: 100%;
     width: 100%;
-
-    > img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
+    object-fit: contain;
+    object-position: center;
   }
 }
 
@@ -92,6 +90,14 @@ $border: 1px solid #000;
       align-items: center;
       gap: 10px;
       flex-wrap: wrap;
+
+      .image {
+        overflow: hidden;
+        > img {
+          height: 100%;
+          width: 100%;
+        }
+      }
     }
   }
 

@@ -2,25 +2,27 @@ import { BiCube } from "react-icons/bi";
 import { BsFileEarmarkPdf } from "react-icons/bs";
 import { MdMail } from "react-icons/md";
 
-const ProductDetailsGrid = () => {
+const ProductDetailsGrid = (props) => {
+  const { name, image, sizeDescription, colors, textures } = props.data;
+
   return (
-    <div className="grid-2">
+    <div className="products-grid-2">
       <div className="product-image">
-        <img src="/products/urban/urban-sub-3.png" />
+        <img src={image} alt={name} />
       </div>
       <div className="description-grid">
-        <div className="product-name">Absqua</div>
+        <div className="product-name">{name}</div>
         <div className="grid-cell texture">
           <div className="heading">Textures Specifications</div>
           <div className="detail">
-            <div className="texture-box">
-              <div className="image"></div>
-              <div className="name">Smooth</div>
-            </div>
-            <div className="texture-box">
-              <div className="image"></div>
-              <div className="name">Smooth</div>
-            </div>
+            {textures?.map((item, i) => (
+              <div className="texture-box" key={i}>
+                <div className="image">
+                  <img src={item.image} alt={item.name} />
+                </div>
+                <div className="name">{item.name}</div>
+              </div>
+            ))}
           </div>
         </div>
         <div className="grid-cell specification">
@@ -28,15 +30,15 @@ const ProductDetailsGrid = () => {
           <div className="detail no-pd">
             <div className="size-column">
               <div className="heading">WxHxD mm</div>
-              <div className="detail">300 x 9900 x 15</div>
+              <div className="detail">{sizeDescription.dimensions}</div>
             </div>
             <div className="size-column">
               <div className="heading">Area m2</div>
-              <div className="detail">0.27</div>
+              <div className="detail">{sizeDescription.areaM}</div>
             </div>
             <div className="size-column">
               <div className="heading">Area ft</div>
-              <div className="detail">2.91</div>
+              <div className="detail">{sizeDescription.areaF}</div>
             </div>
           </div>
         </div>
@@ -54,15 +56,11 @@ const ProductDetailsGrid = () => {
         <div className="grid-cell colors">
           <div className="heading">Colours</div>
           <div className="detail">
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
-            <div className="color-block"></div>
+            {colors.map((item, i) => (
+              <div className="color-block" key={i}>
+                <img src={"/products/colors/" + item + ".jpg"} alt={item} />
+              </div>
+            ))}
           </div>
         </div>
         <div className="grid-cell enquire">

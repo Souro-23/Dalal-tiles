@@ -1,6 +1,6 @@
 import Layout from "@components/Layout";
 import AboutPageSidebar from "@section/AboutPageSidebar";
-import ProductDetailsGrid from "@components/ProductDetailsGrid";
+
 import SwatchSlider from "@components/SwatchSlider";
 
 const ProductDetails = (props) => {
@@ -11,7 +11,7 @@ const ProductDetails = (props) => {
   return (
     <Layout sidebar={<AboutPageSidebar />}>
       <div className="product-details-page">
-        <ProductDetailsGrid />
+        {/* <ProductDetailsGrid /> */}
         <SwatchSlider data={sampleSwatch} />
       </div>
     </Layout>
