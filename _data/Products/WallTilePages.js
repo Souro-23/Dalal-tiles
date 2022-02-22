@@ -850,6 +850,98 @@ const WallTilePages = [
       },
     ],
   },
+  {
+    proxy: "wall-tiles",
+    slug: "wet-cladding-panel",
+    name: "Wet Cladding Panel",
+    image: "/products/wall-tiles/wet-cladding-panel/wet-cladding-panel.png",
+    subcategories: [
+      {
+        slug: "arcade",
+        name: "Arcade",
+        image: "/products/wall-tiles/wet-cladding-panel/arcade/arcade.png",
+        textures: [
+          {
+            name: "Smooth",
+            image: "/products/textures/smooth.png",
+          },
+        ],
+        colors: [
+          "brown 4610",
+          "brown 4686",
+          "brown 4660",
+          "Red 4180",
+          "Maroon",
+          "Yellow 4905",
+          "Dholpur",
+          "white",
+          "Yellow 4920",
+          "Yellow 4960",
+          "Yellow 4910",
+        ],
+        sizeDescription: {
+          dimensions: "300x900x15",
+          areaM: "0.27",
+          areaF: "2.91",
+        },
+        swatches: [
+          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-3.jpg",
+        ],
+        renders: [
+          "/products/wall-tiles/wet-cladding-panel/arcade/renders/render-1.jpg",
+          "/products/wall-tiles/wet-cladding-panel/arcade/renders/render-2.jpg",
+          "/products/wall-tiles/wet-cladding-panel/arcade/renders/render-3.jpg",
+        ],
+        downloadPdf: "#",
+        download3d: "#",
+      },
+      {
+        slug: "ridges",
+        name: "ridges",
+        image: "/products/wall-tiles/wet-cladding-panel/ridges/ridges.png",
+        textures: [
+          {
+            name: "Coarse",
+            image: "/products/textures/Coarse.png",
+          },
+        ],
+        colors: [
+          "brown 4610",
+          "brown 4686",
+          "brown 4660",
+          "delhistone",
+          "Maroon",
+          "Yellow 4905",
+          "grey",
+          "white",
+          "red 4130",
+          "Yellow 4920",
+          "Yellow 4960",
+          "Yellow 4910",
+        ],
+        sizeDescription: {
+          dimensions: "600x900x22",
+          areaM: "0.54",
+          areaF: "5.81",
+        },
+        swatches: [
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-4.jpg",
+        ],
+        renders: [
+          "/products/wall-tiles/wet-cladding-panel/ridges/renders/render-1.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/renders/render-2.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/renders/render-3.jpg",
+        ],
+        downloadPdf: "#",
+        download3d: "#",
+      },
+    ],
+  },
 ];
 
 export default WallTilePages;
