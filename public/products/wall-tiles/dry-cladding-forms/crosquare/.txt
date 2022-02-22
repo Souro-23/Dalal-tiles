@@ -1,0 +1,5 @@
+color codes:brown 4610, brown 4686, brown 4660, Dholpur,Pink, Maroon, yellow 4905
+red 4100, red 4130, yellow 4920, yellow 4910, white
+
+
+Diemensions: 600 X 600 X 40 a(wxhxd mm), 0.36 (Area m2), 3.87 (Area ft2)

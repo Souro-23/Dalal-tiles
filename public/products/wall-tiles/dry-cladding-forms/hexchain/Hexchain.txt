@@ -1,0 +1,5 @@
+color codes: brown 4686, brown 4660,Red4180, Grey, Pink, Maroon, yellow 4905
+Dholpur, yellow 4910, yellow 4960, Delhistone, white
+
+
+Diemensions: 600 X 300 X 40  (wxhxd mm), 0.18 (Area m2), 1.93 (Area ft2)
