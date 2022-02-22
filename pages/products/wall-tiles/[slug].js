@@ -2,10 +2,11 @@ import Layout from "@components/Layout";
 import WallTilePages from "_data/Products/WallTilePages";
 import ProductDetailsGrid from "@components/ProductDetailsGrid";
 import SwatchSlider from "@components/SwatchSlider";
+import ProductsPageSidebar from "@section/ProductsPageSidebar";
 
 const WallTilesPages = (props) => {
   return (
-    <Layout>
+    <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
       <ProductDetailsGrid data={props.data} />
       <SwatchSlider data={props.data.swatches} />
     </Layout>
