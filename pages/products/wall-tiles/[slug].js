@@ -1,11 +1,13 @@
 import Layout from "@components/Layout";
 import WallTilePages from "_data/Products/WallTilePages";
 import ProductDetailsGrid from "@components/ProductDetailsGrid";
+import SwatchSlider from "@components/SwatchSlider";
 
 const WallTilesPages = (props) => {
   return (
     <Layout>
       <ProductDetailsGrid data={props.data} />
+      <SwatchSlider data={props.data.swatches} />
     </Layout>
   );
 };

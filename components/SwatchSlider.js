@@ -36,7 +36,7 @@ const SwatchSlider = (props) => {
         {props.data.map((item, index) => (
           <SwiperSlide key={index} style={{ height: "auto" }}>
             <div className="swatch-slide">
-              <img src={item} />
+              <img src={item} alt={"Swatch-" + index} />
             </div>
           </SwiperSlide>
         ))}
