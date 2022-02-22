@@ -13,7 +13,9 @@ const WallTilesPages = (props) => {
 };
 
 export async function getStaticPaths() {
-  const paths = WallTilePages.subcategories.map((item) => ({
+  const subcategories = WallTilePages.map((item) => item.subcategories);
+  const pages = [].concat(...subcategories);
+  const paths = pages.map((item) => ({
     params: { slug: item.slug },
   }));
 
@@ -21,7 +23,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const data = WallTilePages.subcategories.find((item) => {
+  const subcategories = WallTilePages.map((item) => item.subcategories);
+  const pages = [].concat(...subcategories);
+  const data = pages.find((item) => {
     if (item.slug === params.slug) {
       return item;
     }
