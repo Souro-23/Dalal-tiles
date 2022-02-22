@@ -2,17 +2,17 @@ import { useState } from "react";
 import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
 import AboutPageSidebar from "@section/AboutPageSidebar";
-import UrbanAccesories from "@section/AccordionContents/Products/UrbanAccesories";
+import WallTiles from "@section/AccordionContents/Products/WallTiles";
 
 const Products = () => {
   const data = [
     {
       title: "Landscape Products & Urban Accessories",
-      content: <UrbanAccesories />,
+      content: <h1>Hello</h1>,
     },
     {
       title: "Wall Tiles",
-      content: <h1>Hello</h1>,
+      content: <WallTiles />,
     },
     {
       title: "Green Building Products",

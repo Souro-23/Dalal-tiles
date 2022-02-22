@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -109,9 +110,13 @@ const ProductsSlider = (props) => {
         >
           {props?.data[activeSlide]?.subcategories?.map((item, index) => (
             <SwiperSlide key={index} style={{ height: "auto" }}>
-              <div className="products-slider-slide">
-                <img src={item.image} />
-              </div>
+              <Link href={`${"products/wall-tiles"}/${item.slug}`}>
+                <a>
+                  <div className="products-slider-slide">
+                    <img src={item.image} alt={item.name} />
+                  </div>
+                </a>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>

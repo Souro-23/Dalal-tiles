@@ -863,8 +863,8 @@ const WallTilePages = [
         image: "/products/wall-tiles/wet-cladding-panel/arcade/arcade.png",
         textures: [
           {
-            name: "Smooth",
-            image: "/products/textures/smooth.png",
+            name: "Coarse",
+            image: "/products/textures/Coarse.png",
           },
         ],
         colors: [
