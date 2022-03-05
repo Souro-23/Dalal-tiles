@@ -7,7 +7,6 @@ const RendersSlider = (props) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
 
-  console.log(props.data);
   return (
     <div className="renders-slider">
       <div className="navigation-buttons black prev-btn">
