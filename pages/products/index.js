@@ -4,6 +4,7 @@ import Layout from "@components/Layout";
 import AboutPageSidebar from "@section/AboutPageSidebar";
 import WallTiles from "@section/AccordionContents/Products/WallTiles";
 import ConcretePavers from "@section/AccordionContents/Products/ConcretePavers";
+import GreenBuilding from "@section/AccordionContents/Products/GreenBuilding";
 
 const Products = () => {
   const data = [
@@ -17,7 +18,7 @@ const Products = () => {
     },
     {
       title: "Green Building Products",
-      content: <h1>Hello</h1>,
+      content: <GreenBuilding />,
     },
     {
       title: "Architectural Elements",

@@ -1,0 +1,36 @@
+.green-building-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin: 30px 50px;
+
+  .green-building-image {
+    position: relative;
+    padding-top: 100%;
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+
+    > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin: 5px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .green-building-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
