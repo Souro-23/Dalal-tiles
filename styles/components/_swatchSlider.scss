@@ -3,6 +3,12 @@
   width: 100%;
   position: relative;
 
+  .swatch-solo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .prev-btn,
   .next-btn {
     position: absolute;

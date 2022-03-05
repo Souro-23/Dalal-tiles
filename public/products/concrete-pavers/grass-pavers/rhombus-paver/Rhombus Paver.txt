@@ -1,0 +1,8 @@
+Rhombus Paver
+
+
+Dimensions: 265 x 265 x 60
+
+area m2:0.061
+
+area ft2: 0.657
