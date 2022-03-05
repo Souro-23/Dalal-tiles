@@ -3,6 +3,7 @@ import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
 import AboutPageSidebar from "@section/AboutPageSidebar";
 import WallTiles from "@section/AccordionContents/Products/WallTiles";
+import ConcretePavers from "@section/AccordionContents/Products/ConcretePavers";
 
 const Products = () => {
   const data = [
@@ -21,6 +22,10 @@ const Products = () => {
     {
       title: "Architectural Elements",
       content: <h1>Hello</h1>,
+    },
+    {
+      title: "Concrete Pavers",
+      content: <ConcretePavers />,
     },
   ];
 
