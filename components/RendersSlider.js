@@ -47,8 +47,8 @@ const RendersSlider = (props) => {
           swiper.params.navigation.nextEl = navigationNextRef.current;
         }}
       >
-        {props.data.map((item) => (
-          <SwiperSlide>
+        {props.data.map((item, index) => (
+          <SwiperSlide key={index}>
             <img src={item} />
           </SwiperSlide>
         ))}
