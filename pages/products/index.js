@@ -7,6 +7,7 @@ import ConcretePavers from "@section/AccordionContents/Products/ConcretePavers";
 import GreenBuilding from "@section/AccordionContents/Products/GreenBuilding";
 import UrbanAccessoriesSlider from "@section/AccordionContents/Products/UrbanAccessories";
 import ArchitecturalElementsSlider from "@section/AccordionContents/Products/ArchitecturalElements";
+import Link from "next/link";
 
 const Products = () => {
   const data = [
@@ -65,7 +66,9 @@ const Products = () => {
             officia deserunt mollit anim id est labo
           </p>
 
-          <button className="btn btn-outline">Download Catalouge</button>
+          <Link href="/products/catalogue">
+            <button className="btn btn-outline">Download Catalouge</button>
+          </Link>
         </div>
       </div>
 
