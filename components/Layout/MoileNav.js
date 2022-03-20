@@ -14,9 +14,9 @@ const MobileNav = () => {
           <img src="/dalal-tiles.png" />
         </div>
 
-        <a href="#" className="visit-btn">
+        {/* <a href="#" className="visit-btn">
           Book a visit
-        </a>
+        </a> */}
         <div className="call-btn">
           <FaPhoneAlt />
         </div>

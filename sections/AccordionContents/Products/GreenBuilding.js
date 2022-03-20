@@ -2,7 +2,6 @@ import Link from "next/link";
 import GreenBuildingPages from "_data/Products/GreenBuildingPages";
 
 const GreenBuilding = () => {
-  console.log(GreenBuildingPages);
   return (
     <div className="green-building-grid">
       {GreenBuildingPages.map((item, i) => (

@@ -4,7 +4,7 @@ import { OurClients } from "_data/OurClients";
 const AboutPageSidebar = () => {
   return (
     <>
-      <button className="visit-btn">Book a visit</button>
+      {/* <button className="visit-btn">Book a visit</button> */}
 
       <SidebarSlider heading="Featured Products" className="border-b" />
 

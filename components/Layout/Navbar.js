@@ -22,9 +22,9 @@ const Navbar = () => {
         </NavLink>
       </div>
 
-      <a href="#" className="visit-btn">
+      {/* <a href="#" className="visit-btn">
         Book a visit
-      </a>
+      </a> */}
       <div className="call-btn">
         <FaPhoneAlt />
       </div>
