@@ -5,12 +5,13 @@ import AboutPageSidebar from "@section/AboutPageSidebar";
 import WallTiles from "@section/AccordionContents/Products/WallTiles";
 import ConcretePavers from "@section/AccordionContents/Products/ConcretePavers";
 import GreenBuilding from "@section/AccordionContents/Products/GreenBuilding";
+import UrbanAccessoriesSlider from "@section/AccordionContents/Products/UrbanAccessories";
 
 const Products = () => {
   const data = [
     {
       title: "Landscape Products & Urban Accessories",
-      content: <h1>Hello</h1>,
+      content: <UrbanAccessoriesSlider />,
     },
     {
       title: "Wall Tiles",
