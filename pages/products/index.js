@@ -6,6 +6,7 @@ import WallTiles from "@section/AccordionContents/Products/WallTiles";
 import ConcretePavers from "@section/AccordionContents/Products/ConcretePavers";
 import GreenBuilding from "@section/AccordionContents/Products/GreenBuilding";
 import UrbanAccessoriesSlider from "@section/AccordionContents/Products/UrbanAccessories";
+import ArchitecturalElementsSlider from "@section/AccordionContents/Products/ArchitecturalElements";
 
 const Products = () => {
   const data = [
@@ -23,7 +24,7 @@ const Products = () => {
     },
     {
       title: "Architectural Elements",
-      content: <h1>Hello</h1>,
+      content: <ArchitecturalElementsSlider />,
     },
     {
       title: "Concrete Pavers",
