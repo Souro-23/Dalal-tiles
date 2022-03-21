@@ -110,7 +110,9 @@ const ProductsSlider = (props) => {
         >
           {props?.data[activeSlide]?.subcategories?.map((item, index) => (
             <SwiperSlide key={index} style={{ height: "auto" }}>
-              <Link href={`${"products/wall-tiles"}/${item.slug}`}>
+              <Link
+                href={`products/${props?.data[activeSlide]?.proxy}/${item.slug}`}
+              >
                 <a>
                   <div className="products-slider-slide">
                     <img src={item.image} alt={item.name} />
