@@ -1,6 +1,6 @@
 const UrbanAccessories = [
   {
-    name: "Bollards, Hollow Blocks, Solid Blocks",
+    name: "Bollards and Blocks",
     image:
       "/products/urban-accessories/bollards-hollow-blocks-solid-blocks/bollards-hollow-blocks-solid-blocks.png",
     subCategories: [

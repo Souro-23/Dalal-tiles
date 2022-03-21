@@ -7,6 +7,7 @@ import { MdOutlineClose, MdMail } from "react-icons/md";
 import { BiCube } from "react-icons/bi";
 import { BsFileEarmarkPdf } from "react-icons/bs";
 import Modal from "react-modal";
+import { useMediaQuery } from "react-responsive";
 
 const ProductsPopupSlider = (props) => {
   const navigationPrevRef = useRef(null);
@@ -25,6 +26,21 @@ const ProductsPopupSlider = (props) => {
   function closeModal() {
     setIsOpen(false);
   }
+
+  const isLaptopOrAbove = useMediaQuery({ query: "(min-width: 768px)" });
+  const isMobile = useMediaQuery({ query: "(min-width: 640px)" });
+
+  const getTotalChildrenSlide = () => {
+    const activeSlideLength = props?.data[activeSlide]?.subCategories.length;
+
+    if (isLaptopOrAbove) {
+      return activeSlideLength > 4 ? 4 : activeSlideLength;
+    } else if (isMobile) {
+      return activeSlideLength > 2 ? 2 : activeSlideLength;
+    }
+
+    return 1;
+  };
 
   return (
     <>
@@ -99,25 +115,10 @@ const ProductsPopupSlider = (props) => {
         </div>
 
         <Swiper
-          slidesPerView={
-            props?.data[activeSlide]?.subCategories.length > 4
-              ? 4
-              : props?.data[activeSlide]?.subCategories.length
-          }
+          slidesPerView={getTotalChildrenSlide()}
           spaceBetween={0}
           modules={[Navigation]}
           loop={true}
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
-            640: {
-              slidesPerView: 2,
-            },
-            768: {
-              slidesPerView: 4,
-            },
-          }}
           navigation={{
             prevEl: navigationPrevRef.current,
             nextEl: navigationNextRef.current,
@@ -128,7 +129,7 @@ const ProductsPopupSlider = (props) => {
           }}
         >
           {props?.data[activeSlide]?.subCategories?.map((item, index) => (
-            <SwiperSlide key={index} style={{ height: "auto" }}>
+            <SwiperSlide key={index}>
               <div
                 className="products-slider-slide"
                 onClick={() => openModal(item)}
