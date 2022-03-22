@@ -2,8 +2,8 @@ import Link from "next/link";
 import { SwiperSlide } from "swiper/react";
 import Layout from "@components/Layout";
 import HorizontalSlider from "@components/HorizontalSlider";
-import AboutPageSidebar from "@section/AboutPageSidebar";
 import { BsFillCloudDownloadFill } from "react-icons/bs";
+import HomePageSidebar from "@section/HomePageSidebar";
 
 const products = () => {
   const data = [
@@ -33,7 +33,7 @@ const products = () => {
     },
   ];
   return (
-    <Layout sidebar={<AboutPageSidebar />}>
+    <Layout sidebar={<HomePageSidebar />}>
       <div className="products-page">
         <HorizontalSlider slidesNumber={3}>
           {data.map((item, index) => (
