@@ -6,7 +6,7 @@ const ProductDetailsGrid = (props) => {
   const { name, image, sizeDescription, colors, textures } = props.data;
 
   return (
-    <div className="products-grid-2">
+    <div className="products-grid">
       <div className="product-image">
         <img src={image} alt={name} />
       </div>

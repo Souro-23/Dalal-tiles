@@ -7,16 +7,16 @@ const GreenBuildingDetailsGrid = (props) => {
   const { size, density, thermal } = specifications;
 
   return (
-    <div className="products-grid-2">
+    <div className="products-grid">
       <div className="product-image">
         <img src={image} alt={name} />
       </div>
       <div className="green-building-description-grid">
         <div className="product-name">{name}</div>
-        <div className="grid-col">
+        <div className="grid-col border-r">
           <div className="heading">Size Specifications</div>
         </div>
-        <div className="grid-col">
+        <div className="grid-col density-head">
           <div className="heading">Density Specifications</div>
         </div>
 
