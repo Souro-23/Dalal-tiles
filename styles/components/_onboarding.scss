@@ -1,0 +1,63 @@
+.onboarding-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px 50px;
+  gap: 30px;
+  position: relative;
+
+  .close-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .logo {
+    height: 150px;
+    width: auto;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  p.description {
+    font-size: 1.75rem;
+  }
+
+  .user-type {
+    width: 100%;
+
+    .buttons {
+      margin-top: 10px;
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .onboarding-modal {
+    .user-type {
+      .buttons {
+        margin-top: 10px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
