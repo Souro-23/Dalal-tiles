@@ -1,19 +1,21 @@
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
-import AboutPageSidebar from "@section/AboutPageSidebar";
 import Layout from "@components/Layout";
 import ContactForm from "@section/ContactForm";
+import HomePageSidebar from "@section/HomePageSidebar";
 
 const contact = () => {
   return (
-    <Layout sidebar={<AboutPageSidebar />}>
+    <Layout sidebar={<HomePageSidebar />}>
       <div className="contact-page">
         <div className="contact-sidebar">
           <div className="contact-section">
             <h1>CONTACT US</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              You are an architect, planner or user and would like to have some
+              information materials or desire personal contact? We will gladly
+              respond to an individual question. Please fill the form and
+              submit, we will be in touch as soon as possible.
             </p>
           </div>
 

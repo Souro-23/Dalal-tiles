@@ -1,11 +1,10 @@
 import { useState } from "react";
 import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
-import AboutPageSidebar from "@section/AboutPageSidebar";
 import History from "@section/AccordionContents/History";
 import ManufacturingFacility from "@section/AccordionContents/ManufacturingFacility";
 import Profile from "@section/AccordionContents/Profile";
-import Achievements from "@section/AccordionContents/Achievements";
+import HomePageSidebar from "@section/HomePageSidebar";
 
 const About = () => {
   const data = [
@@ -21,16 +20,12 @@ const About = () => {
       title: "Manufacturing Facility",
       content: <ManufacturingFacility />,
     },
-    // {
-    //   title: "Achievements",
-    //   content: <Achievements />,
-    // },
   ];
 
   const [activeAccordion, setActiveAccordion] = useState(false);
 
   return (
-    <Layout sidebar={<AboutPageSidebar />}>
+    <Layout sidebar={<HomePageSidebar />}>
       <div className={activeAccordion ? "about-banner hidden" : "about-banner"}>
         <p className="banner-heading">DALAL TILES</p>
         <p className="banner-description">

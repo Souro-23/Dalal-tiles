@@ -1,13 +1,13 @@
 import { useState } from "react";
 import Accordion from "@components/Accordion";
 import Layout from "@components/Layout";
-import AboutPageSidebar from "@section/AboutPageSidebar";
 import WallTiles from "@section/AccordionContents/Products/WallTiles";
 import ConcretePavers from "@section/AccordionContents/Products/ConcretePavers";
 import GreenBuilding from "@section/AccordionContents/Products/GreenBuilding";
 import UrbanAccessoriesSlider from "@section/AccordionContents/Products/UrbanAccessories";
 import ArchitecturalElementsSlider from "@section/AccordionContents/Products/ArchitecturalElements";
 import Link from "next/link";
+import HomePageSidebar from "@section/HomePageSidebar";
 
 const Products = () => {
   const data = [
@@ -36,7 +36,7 @@ const Products = () => {
   const [activeAccordion, setActiveAccordion] = useState(false);
 
   return (
-    <Layout sidebar={<AboutPageSidebar />}>
+    <Layout sidebar={<HomePageSidebar />}>
       <div
         className={
           activeAccordion ? "products-banner hidden" : "products-banner"
