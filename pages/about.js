@@ -21,10 +21,10 @@ const About = () => {
       title: "Manufacturing Facility",
       content: <ManufacturingFacility />,
     },
-    {
-      title: "Achievements",
-      content: <Achievements />,
-    },
+    // {
+    //   title: "Achievements",
+    //   content: <Achievements />,
+    // },
   ];
 
   const [activeAccordion, setActiveAccordion] = useState(false);

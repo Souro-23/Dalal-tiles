@@ -18,3 +18,30 @@ export const HomePageSlides = [
       "A partnership that backs you in constructing innovative possibilities.",
   },
 ];
+
+export const featuredProducts = [
+  {
+    image: "/images/our-products/4 (2).jpg",
+  },
+  {
+    image: "/images/our-products/2 (4).jpg",
+  },
+  {
+    image: "/images/our-products/4 (4).jpg",
+  },
+  {
+    image: "/images/our-products/4.2 (1).jpg",
+  },
+];
+
+export const ourProjects = [
+  {
+    image: "/images/our-projects/Temple Emerald Gulistan.jpg",
+  },
+  {
+    image: "/images/our-projects/Edited_ - 9.jpg",
+  },
+  {
+    image: "/images/our-projects/Kartarpur Corridor.jpg",
+  },
+];

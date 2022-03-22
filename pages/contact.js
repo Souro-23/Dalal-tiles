@@ -28,7 +28,8 @@ const contact = () => {
             <div className="heading">
               <FaEnvelope /> Mail us
             </div>
-            <p>youremail@dalaltiles.com</p>
+            <p>dalaltiles@yahoo.com</p>
+            <p>sales@dalaltiles.com</p>
           </div>
           <div className="contact-section">
             <div className="heading">

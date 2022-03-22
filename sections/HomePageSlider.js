@@ -4,7 +4,7 @@ import SwiperCore, { EffectFade, Navigation } from "swiper";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { HomePageSlides } from "_data/HomePageSlides";
 
-SwiperCore.use([Navigation]);
+SwiperCore.use([Navigation, EffectFade]);
 
 const HomePageSlider = () => {
   const navigationPrevRef = useRef(null);
