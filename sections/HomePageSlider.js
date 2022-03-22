@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { EffectFade, Navigation } from "swiper";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
@@ -9,6 +9,18 @@ SwiperCore.use([Navigation, EffectFade]);
 const HomePageSlider = () => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
+
+  const TEXTS = ["Quality", "Honesty", "Innovation"];
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
 
   return (
     <div className="homepage-slider">
@@ -25,15 +37,55 @@ const HomePageSlider = () => {
           swiper.params.navigation.nextEl = navigationNextRef.current;
         }}
       >
-        {HomePageSlides.map((data, index) => (
-          <SwiperSlide key={index}>
-            <HomePageSlide
-              image={data.image}
-              title={data.title}
-              description={data.description}
+        {/* Slide 1 */}
+        <SwiperSlide>
+          <div className="homepage-slide">
+            <p className="slide-heading">
+              Committed
+              <br /> to{" "}
+              <span className="text-transition">
+                {TEXTS[index % TEXTS.length]}
+              </span>
+              .
+            </p>
+            <p className="slide-description">{HomePageSlides[0].description}</p>
+            <img
+              src={HomePageSlides[0].image}
+              alt={HomePageSlides[0].title}
+              className="slide-background"
             />
-          </SwiperSlide>
-        ))}
+            <button className="btn btn-outline-white">Know More</button>
+          </div>
+        </SwiperSlide>
+
+        {/* Slide 2 */}
+        <SwiperSlide>
+          <div className="homepage-slide">
+            <p className="slide-heading">{HomePageSlides[1].title}</p>
+            <p className="slide-description">{HomePageSlides[1].description}</p>
+            <img
+              src={HomePageSlides[1].image}
+              alt={HomePageSlides[1].title}
+              className="slide-background"
+            />
+            <button className="btn btn-outline-white">Know More</button>
+          </div>
+        </SwiperSlide>
+
+        {/* Slide 3 */}
+        <SwiperSlide>
+          <div className="homepage-slide">
+            <p className="slide-heading">{HomePageSlides[2].title}</p>
+            <p className="slide-description">{HomePageSlides[2].description}</p>
+            <img
+              src={HomePageSlides[2].image}
+              alt={HomePageSlides[2].title}
+              className="slide-background"
+            />
+            <button className="btn btn-outline-white">Know More</button>
+          </div>
+        </SwiperSlide>
+
         <div className="navigation-buttons">
           <div ref={navigationPrevRef}>
             <HiOutlineArrowLeft />
@@ -47,15 +99,15 @@ const HomePageSlider = () => {
   );
 };
 
-const HomePageSlide = ({ image, title, description }) => {
-  return (
-    <div className="homepage-slide">
-      <p className="slide-heading">{title}</p>
-      <p className="slide-description">{description}</p>
-      <img src={image} alt={title} className="slide-background" />
-      <button className="btn btn-outline-white">Know More</button>
-    </div>
-  );
-};
+// const HomePageSlide = ({ image, title, description }) => {
+//   return (
+//     <div className="homepage-slide">
+//       <p className="slide-heading">{title}</p>
+//       <p className="slide-description">{description}</p>
+//       <img src={image} alt={title} className="slide-background" />
+//       <button className="btn btn-outline-white">Know More</button>
+//     </div>
+//   );
+// };
 
 export default HomePageSlider;
