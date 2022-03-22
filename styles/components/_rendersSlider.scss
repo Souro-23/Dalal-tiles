@@ -42,6 +42,41 @@
   }
 }
 
+.renders-modal {
+  // height: 100%;
+  // width: 100%;
+  // display: flex;
+  // // align-items: center;
+  // // justify-content: center;
+  // // flex-direction: column;
+  // // padding: 70px 50px;
+  // // gap: 30px;
+  position: relative;
+
+  .close-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .render-image {
+    height: 100%;
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    padding: 50px;
+  }
+}
+
 @media only screen and (max-width: 1600px) {
   .renders-slider {
     .swiper {
