@@ -35,7 +35,7 @@ const Meta = () => {
         content="Dala Tiles, Tiles, Building Products, Construction, Landscape Products, Urban Accessories, Wall Tiles, Green Building Products, Architectural Elements, Concrete Pavers"
       />
       <meta name="robots" content="index, follow" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English"></meta>
     </Head>
   );
