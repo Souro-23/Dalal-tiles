@@ -1,4 +1,4 @@
-.products-page {
+.catalogue-page {
   height: 100%;
   width: 100%;
   display: flex;
@@ -165,6 +165,13 @@
     .banner-heading {
       font-size: 2rem !important;
       line-height: 2.5rem !important;
+    }
+  }
+
+  .catalogue-page {
+    .horizontal-slider {
+      padding: 30px 10px;
+      gap: 10px;
     }
   }
 }

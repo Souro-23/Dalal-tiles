@@ -20,10 +20,21 @@ const HorizontalSlider = (props) => {
         </div>
       </div>
       <Swiper
-        slidesPerView={props.slidesNumber || 1}
+        // slidesPerView={props.slidesNumber || 1}
         spaceBetween={30}
         modules={[Navigation]}
         loop={true}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1080: {
+            slidesPerView: 3,
+          },
+        }}
         pagination={{
           clickable: true,
         }}
