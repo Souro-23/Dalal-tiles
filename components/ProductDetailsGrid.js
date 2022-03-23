@@ -57,9 +57,11 @@ const ProductDetailsGrid = (props) => {
           <div className="heading">Colours</div>
           <div className="detail">
             {colors.map((item, i) => (
-              <div className="color-block" key={i}>
-                <img src={"/products/colors/" + item + ".jpg"} alt={item} />
-              </div>
+              <div
+                className="color-block"
+                key={i}
+                style={{ background: item }}
+              ></div>
             ))}
           </div>
         </div>
