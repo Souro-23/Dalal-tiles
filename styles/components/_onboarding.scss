@@ -51,12 +51,36 @@
 
 @media only screen and (max-width: 768px) {
   .onboarding-modal {
+    padding: 30px 10px;
     .user-type {
       .buttons {
         margin-top: 10px;
         display: grid;
         gap: 30px;
         grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .onboarding-modal {
+    .logo {
+      height: 100px;
+      width: auto;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+
+    p.description {
+      font-size: 1.4rem;
+    }
+
+    .user-type {
+      .buttons {
+        gap: 10px;
       }
     }
   }
