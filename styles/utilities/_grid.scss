@@ -5,17 +5,29 @@
   gap: 10px;
 }
 
-.accordion-grid-2 {
+.accordion-grid {
   display: grid;
   grid-template-columns: 50% 50%;
 
   .grid-content {
     padding: 20px;
   }
+
+  .s-image {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    > img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }
 
 @media only screen and (max-width: 900px) {
-  .accordion-grid-2 {
+  .accordion-grid {
     grid-template-columns: 100%;
 
     > .image-slider {

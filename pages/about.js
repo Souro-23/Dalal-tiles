@@ -25,7 +25,7 @@ const About = () => {
   const [activeAccordion, setActiveAccordion] = useState(false);
 
   return (
-    <Layout sidebar={<HomePageSidebar />}>
+    <Layout>
       <div className={activeAccordion ? "about-banner hidden" : "about-banner"}>
         <p className="banner-heading">DALAL TILES</p>
         <p className="banner-description">

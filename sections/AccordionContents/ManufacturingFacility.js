@@ -2,7 +2,7 @@ import ImageSlider from "@components/ImageSlider";
 
 const ManufacturingFacility = () => {
   return (
-    <div className="accordion-grid-2">
+    <div className="accordion-grid">
       <ImageSlider
         slides={[
           "images/homepage-slides/slide-1.jpg",

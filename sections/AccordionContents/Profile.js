@@ -2,13 +2,16 @@ import ImageSlider from "@components/ImageSlider";
 
 const Profile = () => {
   return (
-    <div className="accordion-grid-2">
-      <ImageSlider
+    <div className="accordion-grid">
+      {/* <ImageSlider
         slides={[
           "images/homepage-slides/slide-1.jpg",
           "images/homepage-slides/slide-2.jpg",
         ]}
-      />
+      /> */}
+      <div className="s-image">
+        <img src="/images/profile.jpg" alt="Profile" />
+      </div>
       <div className="grid-content">
         <h2 style={{ marginBottom: "15px" }}>PROFILE</h2>
         <p style={{ fontSize: "0.95rem", marginBottom: "10px" }}>
