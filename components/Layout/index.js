@@ -5,6 +5,7 @@ import Footer from "@components/Layout/Footer";
 import MobileNav from "./MoileNav";
 import HomePageSidebar from "@section/HomePageSidebar";
 import Meta from "@components/Meta";
+import { motion } from "framer-motion";
 
 const Layout = ({ children, sidebar }) => {
   return (
@@ -15,8 +16,36 @@ const Layout = ({ children, sidebar }) => {
         <SideNav />
         <Navbar />
         <CallNow />
-        <div className="main">{children}</div>
-        <div className="sidebar">{sidebar ? sidebar : <HomePageSidebar />}</div>
+        <motion.div
+          className="main"
+          initial="pageInitial"
+          animate="pageAnimate"
+          variants={{
+            pageInitial: {
+              opacity: 0,
+            },
+            pageAnimate: {
+              opacity: 1,
+            },
+          }}
+        >
+          {children}
+        </motion.div>
+        <motion.div
+          className="sidebar"
+          initial="pageInitial"
+          animate="pageAnimate"
+          variants={{
+            pageInitial: {
+              opacity: 0,
+            },
+            pageAnimate: {
+              opacity: 1,
+            },
+          }}
+        >
+          {sidebar ? sidebar : <HomePageSidebar />}
+        </motion.div>
         <Footer />
       </div>
     </>
