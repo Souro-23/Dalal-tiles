@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { EffectFade, Navigation } from "swiper";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { HomePageSlides } from "_data/HomePageSlides";
+import Link from "next/link";
 
 SwiperCore.use([Navigation, EffectFade]);
 
@@ -82,7 +83,11 @@ const HomePageSlider = () => {
               alt={HomePageSlides[2].title}
               className="slide-background"
             />
-            <button className="btn btn-outline-white">Know More</button>
+            <Link href="/seven-reasons-why">
+              <a>
+                <button className="btn btn-outline-white">Know More</button>
+              </a>
+            </Link>
           </div>
         </SwiperSlide>
 

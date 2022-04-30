@@ -1,0 +1,77 @@
+.seven-reasons-slider {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+
+  .slider-heading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 50px;
+    z-index: 9;
+    font-size: 2.3rem;
+    max-width: 35ch;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .seven-reasons-swiper {
+    height: 450px;
+
+    .seven-reasons-slide {
+      .slide-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.seven-reasons-content {
+  opacity: 0;
+  height: 100%;
+  color: white;
+  background: white;
+  padding: 50px;
+
+  .seven-reasons-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    span {
+      color: #485563;
+    }
+  }
+
+  .seven-reasons-description {
+    font-size: 1.1rem;
+  }
+
+  &.swiper-slide-active {
+    opacity: 1;
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .seven-reasons-slider {
+    height: 300px;
+
+    .slider-heading {
+      font-size: 1.6rem;
+      margin: 20px;
+    }
+  }
+
+  .seven-reasons-content {
+    padding: 20px;
+
+    .seven-reasons-title {
+      font-size: 1.5rem;
+    }
+
+    .seven-reasons-description {
+      font-size: 1rem;
+    }
+  }
+}
