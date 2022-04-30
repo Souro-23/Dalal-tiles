@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { EffectFade, Navigation, Autoplay } from "swiper";
-import { HomePageSlides } from "_data/HomePageSlides";
 
 SwiperCore.use([Navigation, EffectFade, Autoplay]);
 
@@ -12,27 +11,18 @@ const SevenReasonsSlider = () => {
       </h2>
       <Swiper
         slidesPerView={1}
-        effect={"slide"}
-        loop={true}
-        autoplay={{
-          delay: 3000,
-        }}
+        // effect={"slide"}
+        // loop={true}
+        // autoplay={{
+        //   delay: 3000,
+        // }}
         className="seven-reasons-swiper"
       >
-        {/* Slide 2 */}
+        {/* Slide 1 */}
         <SwiperSlide className="seven-reasons-slide">
           <img
-            src={HomePageSlides[1].image}
-            alt={HomePageSlides[1].title}
-            className="slide-image"
-          />
-        </SwiperSlide>
-
-        {/* Slide 3 */}
-        <SwiperSlide className="seven-reasons-slide">
-          <img
-            src={HomePageSlides[2].image}
-            alt={HomePageSlides[2].title}
+            src="/images/seven-reasons.png"
+            alt="Seven reasons why"
             className="slide-image"
           />
         </SwiperSlide>

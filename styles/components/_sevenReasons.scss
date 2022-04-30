@@ -19,10 +19,69 @@
     height: 450px;
 
     .seven-reasons-slide {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(35.33%, transparent),
+          color-stop(110.07%, rgba(0, 0, 0, 0.92))
+        );
+        background: -webkit-linear-gradient(
+          top,
+          transparent 35.33%,
+          rgba(0, 0, 0, 0.92) 110.07%
+        );
+        background: linear-gradient(
+          180deg,
+          transparent 35.33%,
+          rgba(0, 0, 0, 0.92) 110.07%
+        );
+      }
       .slide-image {
         height: 100%;
         width: 100%;
         object-fit: cover;
+      }
+    }
+  }
+}
+
+.seven-reasons-content-slider {
+  .swiper {
+    padding-bottom: 80px;
+  }
+  .navigation-buttons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: inherit;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    > div {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      border: 1px solid #000;
+      font-size: 1.5rem;
+      color: #000;
+
+      &:active {
+        transform: scale(0.95);
       }
     }
   }

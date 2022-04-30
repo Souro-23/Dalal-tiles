@@ -11,7 +11,7 @@ const SevenReasonsContent = () => {
   const navigationNextRef = useRef(null);
 
   return (
-    <div className="seven-reaons-content">
+    <div className="seven-reasons-content-slider">
       <Swiper
         slidesPerView={1}
         effect={"fade"}
