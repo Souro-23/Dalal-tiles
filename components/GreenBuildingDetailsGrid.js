@@ -4,7 +4,7 @@ import { MdMail } from "react-icons/md";
 
 const GreenBuildingDetailsGrid = (props) => {
   const { name, image, specifications } = props.data;
-  const { size, density, thermal } = specifications;
+  const { size, density, thermal,downloadPdf,download3d } = specifications;
 
   return (
     <div className="products-grid">
@@ -49,10 +49,10 @@ const GreenBuildingDetailsGrid = (props) => {
             <div className="heading">Download</div>
             <div className="download-grid">
               <div className="detail">
-                <a href="#" className="detail-btn">
+                <a href={download3d} target="_blank" className="detail-btn">
                   <BiCube /> Download 3D
                 </a>
-                <a href="#" className="detail-btn">
+                <a href={downloadPdf} target="_blank" className="detail-btn">
                   <BsFileEarmarkPdf /> Download Pdf
                 </a>
               </div>

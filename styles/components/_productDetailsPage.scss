@@ -18,6 +18,19 @@ $border: 1px solid #000;
   }
 }
 
+.navigation{
+  display: flex;
+  gap:5px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.navigation svg{
+  height: 14px;
+  width: 14px;
+}
+
 .description-grid {
   border-bottom: $border;
   border-left: $border;

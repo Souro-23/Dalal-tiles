@@ -9,25 +9,25 @@ const products = () => {
   const data = [
     {
       title: "Landscape Products",
-      image: "/products/slides/image-1.jpg",
+      image: "/products/slides/landscape_products.png",
       link: "products/landscape-products",
       downloadLink: "",
     },
     {
       title: "GRC Architectural Elements",
-      image: "/products/slides/image-2.jpg",
+      image: "/products/slides/GRC.png",
       link: "products/landscape-products",
       downloadLink: "",
     },
     {
       title: "Wall Tiles and Panels",
-      image: "/products/slides/image-1.jpg",
+      image: "/products/slides/wall_tiles.png",
       link: "products/landscape-products",
       downloadLink: "",
     },
     {
       title: "Landscape Products 1",
-      image: "/products/slides/image-2.jpg",
+      image: "/products/slides/landscape_products.png",
       link: "products/landscape-products",
       downloadLink: "",
     },

@@ -39,7 +39,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/16-box-plains/renders/render-3.jpg",
           "/products/concrete-pavers/chequered-tiles/16-box-plains/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -76,7 +76,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/324-boxes-plains/renders/render-3.jpg",
           "/products/concrete-pavers/chequered-tiles/324-boxes-plains/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -116,7 +116,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/airport/renders/render-3.jpg",
           "/products/concrete-pavers/chequered-tiles/airport/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -300,7 +300,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/diagonal-stripes/renders/render-3.jpg",
           "/products/concrete-pavers/chequered-tiles/diagonal-stripes/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -337,7 +337,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/ludo/renders/render-4.jpg",
           "/products/concrete-pavers/chequered-tiles/ludo/renders/render-5.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
     ],
@@ -381,7 +381,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/grass-pavers/grid-paver/renders/render-2.jpg",
           "/products/concrete-pavers/grass-pavers/grid-paver/renders/render-3.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -417,7 +417,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/grass-pavers/rhombus-paver/renders/render-2.jpg",
           "/products/concrete-pavers/grass-pavers/rhombus-paver/renders/render-3.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -452,7 +452,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/grass-pavers/x-paver/renders/render-2.jpg",
           "/products/concrete-pavers/grass-pavers/x-paver/renders/render-3.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
     ],
@@ -500,7 +500,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/boomerang/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/boomerang/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -537,7 +537,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/cobble/renders/render-4.jpg",
           "/products/concrete-pavers/interlocking/cobble/renders/render-5.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -577,7 +577,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/dumbell/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/dumbell/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -613,7 +613,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/hexagon/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/hexagon/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -649,7 +649,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/milano/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/milano/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -693,7 +693,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/rectangle/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/rectangle/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -737,7 +737,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/square/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/square/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -773,7 +773,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/tactile-tiles/renders/render-2.jpg",
           "/products/concrete-pavers/interlocking/tactile-tiles/renders/render-3.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -809,7 +809,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/tri-hexa/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/tri-hexa/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -845,7 +845,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/interlocking/zig-zag/renders/render-3.jpg",
           "/products/concrete-pavers/interlocking/zig-zag/renders/render-4.jpg",
         ],
-        downloadPdf: "#",
+        downloadPdf: "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
         download3d: "#",
       },
     ],

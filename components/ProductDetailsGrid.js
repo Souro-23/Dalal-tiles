@@ -1,13 +1,22 @@
 import { BiCube } from "react-icons/bi";
 import { BsFileEarmarkPdf } from "react-icons/bs";
 import { MdMail } from "react-icons/md";
+import { HiOutlineArrowLeft } from "react-icons/hi";
+import { useRouter } from 'next/router'
+
+
 
 const ProductDetailsGrid = (props) => {
-  const { name, image, sizeDescription, colors, textures } = props.data;
+  const { name, image, sizeDescription, colors, textures,downloadPdf,download3d } = props.data;
+  const router = useRouter()
 
   return (
     <div className="products-grid">
       <div className="product-image">
+        <div className="navigation">
+          <HiOutlineArrowLeft  onClick={() => router.back()}/>
+          <p>Back To Products</p>
+        </div>
         <img src={image} alt={name} />
       </div>
       <div className="description-grid">
@@ -45,10 +54,10 @@ const ProductDetailsGrid = (props) => {
         <div className="grid-cell download">
           <div className="heading">Download</div>
           <div className="detail">
-            <a href="#" className="detail-btn">
+            <a href={download3d} target="_blank" className="detail-btn">
               <BiCube /> Download 3D
             </a>
-            <a href="#" className="detail-btn">
+            <a href={downloadPdf} target="_blank" className="detail-btn">
               <BsFileEarmarkPdf /> Download Pdf
             </a>
           </div>
