@@ -49,10 +49,10 @@ const GreenBuildingDetailsGrid = (props) => {
             <div className="heading">Download</div>
             <div className="download-grid">
               <div className="detail">
-                <a href={download3d} target="_blank" className="detail-btn">
+                <a href={download3d} target="_blank" rel="noreferrer" className="detail-btn">
                   <BiCube /> Download 3D
                 </a>
-                <a href={downloadPdf} target="_blank" className="detail-btn">
+                <a href={downloadPdf} target="_blank" rel="noreferrer" className="detail-btn">
                   <BsFileEarmarkPdf /> Download Pdf
                 </a>
               </div>

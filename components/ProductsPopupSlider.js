@@ -162,10 +162,10 @@ const ProductsPopupSlider = (props) => {
               />
 
               <div className="links">
-                <a href={modalData.download3d} target="_blank"  className="detail-btn">
+                <a href={modalData.download3d} target="_blank" rel="noreferrer" className="detail-btn">
                   <BiCube /> Download 3D
                 </a>
-                <a href={modalData.downloadPdf} target="_blank" className="detail-btn">
+                <a href={modalData.downloadPdf} target="_blank" rel="noreferrer" className="detail-btn">
                   <BsFileEarmarkPdf /> Download Pdf
                 </a>
                 <a href="#" className="detail-btn">
