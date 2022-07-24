@@ -13,8 +13,8 @@ const ProductDetailsGrid = (props) => {
   return (
     <div className="products-grid">
       <div className="product-image">
-        <div className="navigation">
-          <HiOutlineArrowLeft  onClick={() => router.back()}/>
+        <div className="navigation" onClick={() => router.back()}>
+          <HiOutlineArrowLeft  />
           <p>Back To Products</p>
         </div>
         <img src={image} alt={name} />
@@ -38,15 +38,15 @@ const ProductDetailsGrid = (props) => {
           <div className="heading">Size Specifications</div>
           <div className="detail no-pd">
             <div className="size-column">
-              <div className="heading">WxHxD mm</div>
+              <div className="heading">WxHxD(mm)</div>
               <div className="detail">{sizeDescription.dimensions}</div>
             </div>
             <div className="size-column">
-              <div className="heading">Area m2</div>
+              <div className="heading">Area(m2)</div>
               <div className="detail">{sizeDescription.areaM}</div>
             </div>
             <div className="size-column">
-              <div className="heading">Area ft</div>
+              <div className="heading">Area(ft)</div>
               <div className="detail">{sizeDescription.areaF}</div>
             </div>
           </div>

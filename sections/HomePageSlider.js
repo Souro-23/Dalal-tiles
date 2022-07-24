@@ -1,11 +1,11 @@
 import { useEffect, useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { EffectFade, Navigation } from "swiper";
+import SwiperCore, { Autoplay, EffectFade, Navigation } from "swiper";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { HomePageSlides } from "_data/HomePageSlides";
 import Link from "next/link";
 
-SwiperCore.use([Navigation, EffectFade]);
+SwiperCore.use([Navigation, EffectFade, Autoplay]);
 
 const HomePageSlider = () => {
   const navigationPrevRef = useRef(null);
@@ -28,6 +28,9 @@ const HomePageSlider = () => {
       <Swiper
         slidesPerView={1}
         effect={"fade"}
+        autoplay={{
+          delay: 3000,
+        }}
         loop={true}
         navigation={{
           prevEl: navigationPrevRef.current,
@@ -43,10 +46,10 @@ const HomePageSlider = () => {
           <div className="homepage-slide">
             <p className="slide-heading">
               Committed
-              <br /> to{" "}
-              <span className="text-transition">
+              <br /> to{" "}Quality
+              {/* <span className="text-transition">
                 {TEXTS[index % TEXTS.length]}
-              </span>
+              </span> */}
               .
             </p>
             <p className="slide-description">{HomePageSlides[0].description}</p>
@@ -55,7 +58,9 @@ const HomePageSlider = () => {
               alt={HomePageSlides[0].title}
               className="slide-background"
             />
-            <button className="btn btn-outline-white">Know More</button>
+            <Link href="about">
+              <button className="btn btn-outline-white">Know More</button>
+            </Link>
           </div>
         </SwiperSlide>
 
@@ -69,7 +74,9 @@ const HomePageSlider = () => {
               alt={HomePageSlides[1].title}
               className="slide-background"
             />
-            <button className="btn btn-outline-white">Know More</button>
+            <Link href="products">
+              <button className="btn btn-outline-white">Know More</button>
+            </Link>
           </div>
         </SwiperSlide>
 

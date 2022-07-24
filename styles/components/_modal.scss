@@ -1,6 +1,6 @@
 .ReactModal__Overlay {
   z-index: 999;
-  background-color: rgb(63 63 63 / 75%) !important;
+  background-color: rgb(63 63 63 / 60%) !important;
 }
 
 .ReactModal__Content {
@@ -32,7 +32,7 @@
 
   .close-btn {
     font-size: 1.5rem;
-    border: 1px solid black;
+    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +40,7 @@
     width: 35px;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 1000;
   }
 
   .product-modal-image {

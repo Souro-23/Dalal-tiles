@@ -19,7 +19,6 @@ const SidebarSlider = ({ products, heading, className = "" }) => {
           </div>
         </div>
       </div>
-
       <Swiper
         slidesPerView={1}
         effect={"fade"}

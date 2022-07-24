@@ -26,8 +26,29 @@
   }
 }
 
+.accordion-grid-manufacturing {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  .grid-content {
+    padding: 20px;
+  }
+
+  .s-image {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    > img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
 @media only screen and (max-width: 900px) {
-  .accordion-grid {
+  .accordion-grid, .accordion-grid-manufacturing {
     grid-template-columns: 100%;
 
     > .image-slider {

@@ -1,6 +1,6 @@
 .sidebar-slider {
   padding: 20px;
-
+  height: 42vh;
   .header {
     display: flex;
     align-items: center;
@@ -52,6 +52,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .sidebar-slider {
+    height: auto;
+  }
   .sidebar {
     display: grid;
     grid-template-columns: 50% 50%;

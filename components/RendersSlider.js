@@ -2,8 +2,8 @@ import Modal from "react-modal";
 import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
-import { Navigation } from "swiper";
 import { MdOutlineClose } from "react-icons/md";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const RendersSlider = (props) => {
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -35,7 +35,6 @@ const RendersSlider = (props) => {
             <HiOutlineArrowRight />
           </div>
         </div>
-
         <Swiper
           direction={"vertical"}
           spaceBetween={30}
@@ -47,7 +46,7 @@ const RendersSlider = (props) => {
               slidesPerView: 1,
             },
             1200: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
             1600: {
               slidesPerView: 4,
@@ -74,17 +73,39 @@ const RendersSlider = (props) => {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         ariaHideApp={false}
+        style={{
+          content: { backgroundColor: "transparent", border: "none" },
+      }}
       >
-        <div className="renders-modal">
-          <div className="close-btn" onClick={closeModal}>
-            <MdOutlineClose />
-          </div>
-
-          {modalImage && (
-            <img src={modalImage} alt="Render Image" className="render-image" />
-          )}
+      <div className="renders-modal">
+        <div className="close-btn" onClick={closeModal}>
+          <MdOutlineClose color="white" />
         </div>
-      </Modal>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          modules={[Navigation, Pagination]}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          slidesPerView={1}
+          loop={true}
+        >
+          {props.data.map((item, index) => (
+            <SwiperSlide key={index}>
+              <img src={item} alt="Render" className="render-image" />
+
+            </SwiperSlide>
+          ))}
+        </Swiper>
+
+{/* 
+        {modalImage && (
+            <img src={modalImage} alt="Render Image" className="render-image" />
+          )} */}
+      </div>
+    </Modal>
     </>
   );
 };
