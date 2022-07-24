@@ -14,7 +14,17 @@ const Profile = () => {
       </div>
       <div className="grid-content">
         <h2 style={{ marginBottom: "15px" }}>PROFILE</h2>
-        <p style={{ fontSize: "0.95rem", marginBottom: "10px" }}>
+        <p className="banner-description">
+          Dalal Tiles has its history owed to its pioneers Mr. Anil Dalal and
+          Mr. Rakesh Dalal that have instilled the values of transparency,
+          Honesty, and excelling quality to build relationships towards an
+          innovative and creativity driven community of Architects and
+          Engineers.Ensuring the promise of delivering excellence, Dalal Tiles
+          Pvt. Ltd. extends the execution, application, and installation of
+          products and all services related, to Dalal Builders Pvt. Ltd.
+          creating an umbrella of solutions under the Dalal Tiles Banner.
+        </p>
+        {/* <p style={{ fontSize: "0.95rem", marginBottom: "10px" }}>
           After years of hard work and persistence, Dalal Tiles has established
           itself as trustworthy and a sound player in the industry. Dalal
           Industries is one of the leading companies in India for precast
@@ -40,7 +50,7 @@ const Profile = () => {
           over and maintaining the high-quality reputation of which we are
           proud, and for which we have received the certificate of 1SO 9000:2008
           and we have obtained a license of IS 15658:2006 and IS 1237:1980
-        </p>
+        </p> */}
       </div>
     </div>
   );
