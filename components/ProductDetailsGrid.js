@@ -93,11 +93,11 @@ const ProductDetailsGrid = (props) => {
           <div className="heading">Colours : <span style={{ fontWeight: "100" }}>( select any colour for enquiry )</span></div>
           <div className="detail">
             {colors.map((item, i) => (
-              <div className={`${item === selectedColor ? 'border-black' : ''}`} style={item === selectedColor?{ padding: "1px" }:{}}>
+              <div  className={`${item === selectedColor ? 'border-black' : ''}`} style={item === selectedColor?{ padding: "1px" }:{}}
+              key={i}  >
 
                 <div
                   className={`color-block`}
-                  key={i}
                   style={{ background: item }}
                   onClick={() => onColorSelect(item)}
 
@@ -152,7 +152,8 @@ const ProductDetailsGrid = (props) => {
                   <p>Select Product Color</p>
                   <div className="detail">
                     {colors.map((item, i) => (
-                      <div className={`${item === selectedColor ? 'border-black' : ''}`} style={{ padding: "1px" }}>
+                      <div className={`${item === selectedColor ? 'border-black' : ''}`} style={{ padding: "1px" }} 
+                  key={i}>
                         <div
                           className={`color-block`}
                           onClick={() => onColorSelect(item)}
