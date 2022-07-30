@@ -266,6 +266,58 @@ $border: 1px solid #000;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 20px;
   }
+  .enquiry-form {
+    background: #fff;
+    color: #101010;
+    padding-top: 30px;
+    box-sizing: border-box;
+    width: 100%;
+  
+    .form-group {
+      // width: 100%;
+      margin: 20px 0;
+  
+      input,
+      select {
+        padding: 8px;
+        box-sizing: border-box;
+      }
+  
+      label {
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+  
+      textarea {
+        resize: vertical;
+      padding: 8px;
+
+      }
+  
+      &:first-child {
+        margin-top: 0;
+      }
+  
+      > * {
+        width: 100%;
+        display: block;
+      }
+    }
+  
+    .submit-btn {
+      background: #031f2c;
+      padding: 10px;
+      width: 100%;
+      border: 0;
+      outline: 0;
+      color: #fff;
+      cursor: pointer;
+  
+      &:hover {
+        background: rgba($color: #031f2c, $alpha: 0.95);
+      }
+    }
+  }
 
   .left-content{
     margin:30px 0px;
@@ -329,7 +381,7 @@ $border: 1px solid #000;
   margin-top: 1rem;
 }
 .border-black{
-  border:3px solid black
+  border:2px solid black
 }
 
 @media screen and (max-width:768px) {

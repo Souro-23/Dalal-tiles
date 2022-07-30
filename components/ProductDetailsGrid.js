@@ -18,7 +18,7 @@ const ProductDetailsGrid = (props) => {
 
   const [selectedColor, setSelectedColor] = useState("")
 
-  const onColorSelect=(code)=>{
+  const onColorSelect = (code) => {
     setSelectedColor(code)
   }
 
@@ -60,15 +60,20 @@ const ProductDetailsGrid = (props) => {
           <div className="heading">Size Specifications</div>
           <div className="detail no-pd">
             <div className="size-column">
-              <div className="heading">WxHxD(mm)</div>
+              <div className="heading">WxHxD
+                <br />
+                (mm)</div>
               <div className="detail">{sizeDescription.dimensions}</div>
             </div>
             <div className="size-column">
-              <div className="heading">Area(m2)</div>
+              <div className="heading">Area
+                <br />
+                (m2)</div>
               <div className="detail">{sizeDescription.areaM}</div>
             </div>
             <div className="size-column">
-              <div className="heading">Area(ft)</div>
+              <div className="heading">Area
+                <br />(ft)</div>
               <div className="detail">{sizeDescription.areaF}</div>
             </div>
           </div>
@@ -85,14 +90,19 @@ const ProductDetailsGrid = (props) => {
           </div>
         </div>
         <div className="grid-cell colors">
-          <div className="heading">Colours</div>
+          <div className="heading">Colours : <span style={{ fontWeight: "100" }}>( select any colour for enquiry )</span></div>
           <div className="detail">
             {colors.map((item, i) => (
-              <div
-                className="color-block"
-                key={i}
-                style={{ background: item }}
-              ></div>
+              <div className={`${item === selectedColor ? 'border-black' : ''}`} style={item === selectedColor?{ padding: "1px" }:{}}>
+
+                <div
+                  className={`color-block`}
+                  key={i}
+                  style={{ background: item }}
+                  onClick={() => onColorSelect(item)}
+
+                ></div>
+              </div>
             ))}
           </div>
         </div>
@@ -130,31 +140,33 @@ const ProductDetailsGrid = (props) => {
               </div>
 
               <div className="mt-1">
-                <p>Product subcategory</p>
+                <p>Product Name</p>
                 <div className="block-content">
-                  <p>Dry clading forms</p>
+                  <p>{name}</p>
                 </div>
               </div>
 
               <div>
                 <div className="colors">
-                {/* <p>Product Color{ selectedColor && " : "+ selectedColor } </p> */}
-                <p>Select Product Color</p>
+                  {/* <p>Product Color{ selectedColor && " : "+ selectedColor } </p> */}
+                  <p>Select Product Color</p>
                   <div className="detail">
                     {colors.map((item, i) => (
-                      <div
-                        className={`color-block ${item===selectedColor?'border-black':''}`}
-                        onClick={()=>onColorSelect(item)}
-                        key={i}
-                        style={{ background: item }}
-                      ></div>
+                      <div className={`${item === selectedColor ? 'border-black' : ''}`} style={{ padding: "1px" }}>
+                        <div
+                          className={`color-block`}
+                          onClick={() => onColorSelect(item)}
+                          key={i}
+                          style={{ background: item }}
+                        ></div>
+                      </div>
                     ))}
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="contact-form ">
+            <div className="enquiry-form ">
               <h4>Enter Your Details</h4>
               <div className="grid">
                 <div className="row-form-group">

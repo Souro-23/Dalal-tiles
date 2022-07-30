@@ -8,7 +8,7 @@
 
 .products-page-slide {
   padding: 20px;
-  height: 500px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -53,7 +53,7 @@
     background: linear-gradient(
       360deg,
       transparent 35.33%,
-      rgba(0, 0, 0, 0.92) 110.07%
+      rgba(0, 0, 0, 0.40) 110.07%
     );
   }
 
@@ -127,7 +127,7 @@
   }
 
   .banner-content {
-    padding: 20px 50px;
+    padding: 60px 60px;
     .banner-heading {
       color: #000;
       font-weight: 800;
