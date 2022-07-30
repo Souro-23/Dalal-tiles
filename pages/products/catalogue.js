@@ -48,7 +48,7 @@ const products = () => {
                   </div>
                 </a>
               {/* </Link> */}
-                <a href={item.downloadLink} target="_blank" className="download-btn">
+                <a href={item.downloadLink} target="_blank"  rel="noreferrer" className="download-btn">
                   <BsFillCloudDownloadFill /> Download
                 </a>
             </SwiperSlide>
