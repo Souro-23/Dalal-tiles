@@ -109,6 +109,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .contact-form { 
+    .form-group {
+      .grid {
+    grid-template-columns: 100%;
+
+      }}}
   .contact-page {
     grid-template-columns: 100%;
 
