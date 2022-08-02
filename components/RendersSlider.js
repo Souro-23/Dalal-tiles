@@ -37,7 +37,7 @@ const RendersSlider = (props) => {
         </div>
         <Swiper
           direction={"vertical"}
-          spaceBetween={30}
+          spaceBetween={20}
           modules={[Navigation]}
           // slidesPerView={3}
           loop={true}
@@ -46,6 +46,9 @@ const RendersSlider = (props) => {
               slidesPerView: 1,
             },
             1200: {
+              slidesPerView: 2,
+            },
+            1300: {
               slidesPerView: 3,
             },
             1600: {

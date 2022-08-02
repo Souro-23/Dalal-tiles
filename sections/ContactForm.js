@@ -42,8 +42,8 @@ const ContactForm = () => {
       <div className="form-group">
         {/* <label htmlFor="email">Email</label> */}
         <div className="grid">
-          <input type="email" name="email" required placeholder="Enter Your E-Mail" onChange={(e) => { setEmail(e.target.value) }} />
-          <input type="text" name="number" required placeholder="Enter Your Phone Number" onChange={(e) => { setPhoneNo(e.target.value) }} />
+          <input type="email" name="email" required placeholder="Your E-Mail" onChange={(e) => { setEmail(e.target.value) }} />
+          <input type="text" name="number" required placeholder="Your Phone Number" onChange={(e) => { setPhoneNo(e.target.value) }} />
 
         </div>
 

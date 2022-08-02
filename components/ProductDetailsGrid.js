@@ -126,7 +126,7 @@ const ProductDetailsGrid = (props) => {
             <MdOutlineClose />
           </div>
           <div className="">
-            <h2>Have a question or need to reach a dt commercial sales representative?</h2>
+            <h2 style={{width:"90%"}}>Have a question or need to reach a dt commercial sales representative?</h2>
             <p>Please fill out our form. We will be in touch as soon as possible.</p>
           </div>
           <div className="grid">
