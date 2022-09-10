@@ -6,8 +6,12 @@ const Accordion = (props) => {
   const [selected, setSelected] = useState(null);
   const toggle = (index) => {
     if (selected === index) {
-      return setSelected(null);
+       setSelected(null);
+       return
     }
+    window.scroll(0,0)
+    document.documentElement.scrollTop = 0
+    document.body.scrollTop = 0;
     setSelected(index);
   };
 

@@ -13,16 +13,18 @@ const Profile = () => {
         <img src="/images/profile.jpg" alt="Profile" />
       </div>
       <div className="grid-content">
-        <h2 style={{ marginBottom: "15px" }}>PROFILE</h2>
+        <h2 style={{ marginBottom: "15px" }}>A LEGACY THAT STANDS FOR QUALITY, HONESTY AND INNOVATION.</h2>
         <p className="banner-description">
-          Dalal Tiles has its history owed to its pioneers Mr. Anil Dalal and
-          Mr. Rakesh Dalal that have instilled the values of transparency,
-          Honesty, and excelling quality to build relationships towards an
-          innovative and creativity driven community of Architects and
-          Engineers.Ensuring the promise of delivering excellence, Dalal Tiles
-          Pvt. Ltd. extends the execution, application, and installation of
-          products and all services related, to Dalal Builders Pvt. Ltd.
-          creating an umbrella of solutions under the Dalal Tiles Banner.
+        Dalal Tiles is a Leader in manufacturing, exporting, and supplying cutting edge Construction Materials for architectural spaces that aspire to contribute to the creative vision and endeavours of Architects, contractors, and designers. Our products include but are not limited to RCC Bollards, Wall Tiles, Paving Tiles, Platform Copying, Interlock Paving Tile. We transcend our competitors with our modern approach, varied range of quality products and textures, ease of installation, and most importantly our legacy that puts honesty and experience first. We at Dalal Tiles ambitiously open up a world of possibilities to realize ideas into reality with our constantly developing tools and a culture that thrives on innovation while keeping utility and elegance in place.
+        <br/>
+        <br/>
+
+        Dalal Tiles has its history owed to its pioneers Mr. Anil Dalal and Mr. Rakesh Dalal that have instilled the values of Transparency, Honesty, and Excelling quality to build relationships towards an innovative and creativity driven community of Architects and Engineers.
+        Ensuring the promise of delivering excellence, Dalal Tiles Pvt. Ltd. extends the execution, application, and installation of products and all services related, to Dalal Builders Pvt. Ltd. creating an umbrella of solutions under the Dalal Tiles Banner.
+        <br/>
+        <br/>
+
+        We Follow strict safety and quality control procedures, that covers the whole process from detailing stage to handling over and maintain the high-quality reputation of which we are proud, and for which we have received ISO 9000:2008 and we have obtained license of IS 15658:2006 and IS 1237:1980 for our flooring products. Our spacious warehouse facility has requisites for safe storage of products in large amount. The entire area is strategically segmented and labeled that assists in swift movement of the stored products. Suitable temperature and humidity level is maintained to ensure original conditions of CC Interlocking Paver, GRC Products, and other products.
         </p>
         {/* <p style={{ fontSize: "0.95rem", marginBottom: "10px" }}>
           After years of hard work and persistence, Dalal Tiles has established

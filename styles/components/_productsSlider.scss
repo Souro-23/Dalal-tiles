@@ -20,7 +20,7 @@
   }
 
   .prev-btn {
-    border-right: 1px solid #000;
+    // border-right: 1px solid #000;
   }
 
   .next-btn {
@@ -59,6 +59,7 @@
   &.active {
     .product-name {
       font-weight: 600;
+      font-size: 1rem;
     }
   }
 }

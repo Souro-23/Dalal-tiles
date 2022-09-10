@@ -41,7 +41,7 @@ const products = () => {
               {/* <Link href={item.link}> */}
                 <a>
                   <div className="products-page-slide" key={index}>
-                    <h2>{item.title}</h2>
+                    {/* <h2>{item.title}</h2> */}
                     <div className="image-wrapper">
                       <img src={item.image} alt={item.title} />
                     </div>

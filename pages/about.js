@@ -13,7 +13,7 @@ const About = () => {
       content: <Profile />,
     },
     {
-      title: "History",
+      title: "Vision",
       content: <History />,
     },
     {

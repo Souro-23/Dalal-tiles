@@ -11,7 +11,7 @@
     justify-content: space-between;
     cursor: pointer;
     border-bottom: 1px solid #fff;
-    transition: all 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
 
     svg {
       transition: all 0.5s ease-in-out;
@@ -29,12 +29,12 @@
   .content {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.75s cubic-bezier(0, 1, 0, 1);
+    transition: all 4s cubic-bezier(0, 1, 0, 1);
 
     &.show {
       height: auto;
       max-height: 2000px;
-      transition: all 0.75s ease-out;
+      transition: all 4s ease-out;
     }
   }
 }

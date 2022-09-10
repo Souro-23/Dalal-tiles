@@ -41,7 +41,7 @@ const ProductsSlider = (props) => {
               slidesPerView: 2,
             },
             768: {
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
           }}
           navigation={{
@@ -55,11 +55,15 @@ const ProductsSlider = (props) => {
           onSlideChange={(e) => setActiveSlide(e.realIndex)}
         >
           {props?.data?.map((item, index) => (
-            <SwiperSlide key={index} style={{ height: "auto" }}>
+            <SwiperSlide
+              onClick={() => setActiveSlide(index)}
+              key={index}
+              style={{ height: "auto" }}
+            >
               {({ isActive }) => (
                 <div
                   className={
-                    isActive
+                    activeSlide === index
                       ? "products-slider-slide border-bottom active"
                       : "products-slider-slide border-bottom"
                   }

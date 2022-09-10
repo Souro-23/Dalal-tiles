@@ -1,9 +1,12 @@
 import { FaTwitter, FaFacebook, FaYoutube } from "react-icons/fa";
+import { useRouter } from 'next/router'
+
 
 const SideNav = () => {
+  const router = useRouter()
   return (
     <div className="side-nav">
-      <div className="logo">
+      <div onClick={()=>router.push('/')} className="logo">
         <img src="/dalal-tiles.png" />
       </div>
 

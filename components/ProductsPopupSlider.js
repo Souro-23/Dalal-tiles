@@ -86,11 +86,15 @@ const ProductsPopupSlider = (props) => {
           onSlideChange={(e) => setActiveSlide(e.realIndex)}
         >
           {props?.data?.map((item, index) => (
-            <SwiperSlide key={index} style={{ height: "auto" }}>
+            <SwiperSlide
+              key={index}
+              style={{ height: "auto" }}
+              onClick={() => setActiveSlide(index)}
+            >
               {({ isActive }) => (
                 <div
                   className={
-                    isActive
+                    activeSlide === index
                       ? "products-slider-slide border-bottom active"
                       : "products-slider-slide border-bottom"
                   }
@@ -162,10 +166,20 @@ const ProductsPopupSlider = (props) => {
               />
 
               <div className="links">
-                <a href={modalData.download3d} target="_blank" rel="noreferrer" className="detail-btn">
+                <a
+                  href={modalData.download3d}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="detail-btn"
+                >
                   <BiCube /> Download 3D
                 </a>
-                <a href={modalData.downloadPdf} target="_blank" rel="noreferrer" className="detail-btn">
+                <a
+                  href={modalData.downloadPdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="detail-btn"
+                >
                   <BsFileEarmarkPdf /> Download Pdf
                 </a>
                 <a href="#" className="detail-btn">

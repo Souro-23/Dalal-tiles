@@ -5,11 +5,14 @@ const ManufacturingFacility = () => {
     <div className="accordion-grid-manufacturing">
       <ImageSlider
         slides={[
-          "images/homepage-slides/slide-1.jpg",
-          "images/homepage-slides/slide-2.jpg",
+          "images/manufaturing-facilities/manufaturing-facilities-1.png",
+          "images/manufaturing-facilities/manufaturing-facilities-2.png",
+          "images/manufaturing-facilities/manufaturing-facilities-3.png",
+          "images/manufaturing-facilities/manufaturing-facilities-4.png",
+          "images/manufaturing-facilities/manufaturing-facilities-5.png",
         ]}
       />
-      <div className="grid-content">
+      {/* <div className="grid-content">
         <h2 style={{ marginBottom: "15px" }}>
           SPM30 BY COLUMBIA MACHINES AMERICA, COMMISSIONED AT JHAJJAR, HARYANA
         </h2>
@@ -23,7 +26,7 @@ const ManufacturingFacility = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -29,8 +29,19 @@
 
 @media only screen and (max-width: 600px) {
   .green-building-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
+    display: flex;
+    overflow: scroll;
+    // grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 10px 10px;
+
+    .green-building-image{
+      width: 200px;
+    img{
+      height: 200px;
+      width: 200px;
+    }
+  }
+
   }
 }
