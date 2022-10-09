@@ -19,6 +19,7 @@ const ProductsPopupSlider = (props) => {
   const [modalData, setModalData] = useState();
 
   function openModal(item) {
+    console.log(item);
     setModalData(item);
     setIsOpen(true);
   }
@@ -153,7 +154,7 @@ const ProductsPopupSlider = (props) => {
           {modalData && (
             <>
               <div className="modal-header">
-                <h2>{modalData?.name}</h2>
+                <h2>{modalData?.productName}</h2>
 
                 <div className="close-btn" onClick={closeModal}>
                   <MdOutlineClose />

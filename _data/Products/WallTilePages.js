@@ -46,7 +46,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/absqua/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/absqua/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -89,7 +90,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/abstre/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/abstre/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -133,7 +135,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/altrec/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/altrec/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -178,7 +181,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/anglefish/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/anglefish/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -223,7 +227,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/crosquare/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/crosquare/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -267,7 +272,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/hexchain/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/hexchain/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -312,7 +318,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/hexstar/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/hexstar/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -356,7 +363,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/mapell/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/mapell/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -400,7 +408,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/peepal/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/peepal/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -444,7 +453,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/pinwheel/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/pinwheel/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -487,7 +497,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/trihex/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-forms/trihex/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
     ],
@@ -540,7 +551,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/autumn/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-panels/autumn/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -583,7 +595,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/ledge-cut/renders/render-2.jpg",
           "/products/wall-tiles/dry-cladding-panels/ledge-cut/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -626,7 +639,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/ledge-stone/renders/render-2.jpg",
           "/products/wall-tiles/dry-cladding-panels/ledge-stone/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -671,7 +685,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/p-tesella/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-panels/p-tesella/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -714,7 +729,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/scutes/renders/render-2.jpg",
           "/products/wall-tiles/dry-cladding-panels/scutes/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -759,13 +775,19 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/s-tesella/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-panels/s-tesella/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
         slug: "tyde",
         name: "Tyde",
         image: "/products/wall-tiles/dry-cladding-panels/tyde/tyde.png",
+        productImages: [
+          "/products/wall-tiles/dry-cladding-panels/tyde/tyde.png",
+          "/products/wall-tiles/dry-cladding-panels/tyde/tyde1.png",
+          "/products/wall-tiles/dry-cladding-panels/tyde/tyde2.png",
+        ],
         textures: [
           {
             name: "Smooth",
@@ -803,7 +825,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/tyde/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-panels/tyde/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -848,7 +871,8 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/v-flute/renders/render-3.jpg",
           "/products/wall-tiles/dry-cladding-panels/v-flute/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
     ],
@@ -898,7 +922,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-panel/arcade/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-panel/arcade/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -941,7 +966,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-panel/ridges/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-panel/ridges/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
     ],
@@ -997,7 +1023,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/altpyra/renders/render-3.jpg",
           "/products/wall-tiles/wet-cladding-tiles/altpyra/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1040,7 +1067,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/bamboo/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-tiles/bamboo/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1083,7 +1111,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/burrow/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-tiles/burrow/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1127,7 +1156,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/cliff-stone/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-tiles/cliff-stone/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1346,7 +1376,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/grit-wave/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-tiles/grit-wave/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1389,7 +1420,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/hembrick/renders/render-3.jpg",
           "/products/wall-tiles/wet-cladding-tiles/hembrick/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1432,7 +1464,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/sierra/renders/render-2.jpg",
           "/products/wall-tiles/wet-cladding-tiles/sierra/renders/render-3.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
       {
@@ -1475,7 +1508,8 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/zenbrick/renders/render-3.jpg",
           "/products/wall-tiles/wet-cladding-tiles/zenbrick/renders/render-4.jpg",
         ],
-        downloadPdf: "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
+        downloadPdf:
+          "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
         download3d: "#",
       },
     ],

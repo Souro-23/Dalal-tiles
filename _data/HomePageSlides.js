@@ -21,17 +21,20 @@ export const HomePageSlides = [
 
 export const featuredProducts = [
   {
-    image: "/images/our-products/4 (2).jpg",
+    image: "/images/our-products/interlocking.png",
+    link: "products/concrete-pavers/16-box-plains",
   },
   {
-    image: "/images/our-products/2 (4).jpg",
+    image: "/images/our-products/jaali.png",
+    link: "products",
   },
   {
-    image: "/images/our-products/4 (4).jpg",
+    image: "/images/our-products/wall-tiles.png",
+    link: "products/wall-tiles/absqua",
   },
-  {
-    image: "/images/our-products/4.2 (1).jpg",
-  },
+  // {
+  //   image: "/images/our-products/4.2 (1).jpg",
+  // },
 ];
 
 export const ourProjects = [

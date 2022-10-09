@@ -4,6 +4,7 @@ import ProductDetailsGrid from "@components/ProductDetailsGrid";
 import ProductsPageSidebar from "@section/ProductsPageSidebar";
 
 const ConcretePaversPage = (props) => {
+  console.log(props);
   return (
     <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
       <ProductDetailsGrid data={props.data} />

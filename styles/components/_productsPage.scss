@@ -30,7 +30,6 @@
       object-fit: cover;
       object-position: center;
     }
-
     &:hover {
       &::before {
         background: linear-gradient(
@@ -56,6 +55,22 @@
       rgba(0, 0, 0, 0) 110.07%
     );
   }
+  // &::before {
+  //   position: absolute;
+  //   content: "";
+  //   height: 100%;
+  //   width: 100%;
+  //   bottom: 0;
+  //   left: 0;
+  //   z-index: 0;
+  //   background: linear-gradient(
+  //     360deg,
+  //     transparent 35.33%,
+  //     rgba(118, 117, 117, 0.75) 110.07%
+  //   );
+  // }
+
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 
   &:hover {
     &::before {
@@ -69,7 +84,7 @@
       background: linear-gradient(
         360deg,
         transparent 35.33%,
-        rgba(0, 119, 255, 0.75) 110.07%
+        rgba(70, 70, 70, 0.75) 110.07%
       );
     }
   }

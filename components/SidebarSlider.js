@@ -1,11 +1,13 @@
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
+import Link from "next/link";
 
 const SidebarSlider = ({ products, heading, className = "" }) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
 
+  // console.log(products);
   return (
     <div className={`sidebar-slider ${className}`}>
       <div className="header">
@@ -34,7 +36,11 @@ const SidebarSlider = ({ products, heading, className = "" }) => {
       >
         {products.map((data, index) => (
           <SwiperSlide key={index}>
-            <SidebarSlide image={data.image} title={data.title} />
+            <SidebarSlide
+              image={data.image}
+              title={data.title}
+              link={data.link}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -42,11 +48,17 @@ const SidebarSlider = ({ products, heading, className = "" }) => {
   );
 };
 
-const SidebarSlide = ({ image, title }) => {
+const SidebarSlide = ({ image, title, link }) => {
+  console.log(link);
   return (
     <div className="sidebar-slide">
-      {/* <p className="slide-heading">{title}</p> */}
-      <img src={image} alt={title} className="slide-background" />
+      {link && (
+        <Link href={link}>
+          {/* <p className="slide-heading">{title}</p> */}
+          <img src={image} alt={title} className="slide-background" />
+        </Link>
+      )}
+      {!link && <img src={image} alt={title} className="slide-background" />}
     </div>
   );
 };

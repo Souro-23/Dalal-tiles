@@ -3,14 +3,20 @@ import { FiChevronDown } from "react-icons/fi";
 import { useState, useEffect } from "react";
 
 const Accordion = (props) => {
+  // useEffect(() => {
+  //   let selectedProduct = localStorage.getItem("selected-product");
+  //   setSelected(selectedProduct);
+  // }, []);
+
   const [selected, setSelected] = useState(null);
   const toggle = (index) => {
+    localStorage.setItem("selected-product", JSON.stringify(index));
     if (selected === index) {
-       setSelected(null);
-       return
+      setSelected(null);
+      return;
     }
-    window.scroll(0,0)
-    document.documentElement.scrollTop = 0
+    window.scroll(0, 0);
+    document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
     setSelected(index);
   };
