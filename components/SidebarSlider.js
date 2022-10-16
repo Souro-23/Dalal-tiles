@@ -2,49 +2,59 @@ import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import Link from "next/link";
+import { useState } from "react";
 
 const SidebarSlider = ({ products, heading, className = "" }) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
 
+  const [selectedProductIndex, setSelectedProductIndex] = useState(0);
+
   // console.log(products);
   return (
-    <div className={`sidebar-slider ${className}`}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+      className={`sidebar-slider ${className}`}
+    >
       <div className="header">
         <div className="slider-heading">{heading}</div>
         <div className="nav-buttons">
-          <div ref={navigationPrevRef}>
+          <div
+            onClick={() => {
+              setSelectedProductIndex(
+                (selectedProductIndex - 1) % products.length
+              );
+            }}
+          >
             <HiOutlineArrowLeft />
           </div>
-          <div ref={navigationNextRef}>
+          <div
+            onClick={() => {
+              setSelectedProductIndex(
+                (selectedProductIndex + 1) % products.length
+              );
+            }}
+          >
             <HiOutlineArrowRight />
           </div>
         </div>
       </div>
-      <Swiper
-        slidesPerView={1}
-        effect={"fade"}
-        loop={true}
-        navigation={{
-          prevEl: navigationPrevRef.current,
-          nextEl: navigationNextRef.current,
-        }}
-        onBeforeInit={(swiper) => {
-          swiper.params.navigation.prevEl = navigationPrevRef.current;
-          swiper.params.navigation.nextEl = navigationNextRef.current;
-        }}
-      >
-        {products.map((data, index) => (
-          <SwiperSlide key={index}>
-            <SidebarSlide
-              image={data.image}
-              title={data.title}
-              link={data.link}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <SidebarSlide
+        image={products[selectedProductIndex].image}
+        title={products[selectedProductIndex].title}
+        link={products[selectedProductIndex].link}
+      />
+      {/* <div style={{ position: "relative" }}> */}
+      {/* <p style={{ position: "absolute", top: "10px", left: 0 }}> */}
+      <p style={{ margin: "10px 0px 0px 0px" }}>
+        {products[selectedProductIndex].name}
+      </p>
     </div>
+    // </div>
   );
 };
 
