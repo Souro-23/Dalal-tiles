@@ -72,9 +72,6 @@ export const ourProjects = [
     name: "Temple Emerald Gulistan",
   },
   {
-    image: "/images/our-projects/Edited_ - 9.jpg",
-  },
-  {
     image: "/images/our-projects/Kartarpur Corridor.jpg",
     name: "Kartarpur Corridor",
   },
@@ -100,12 +97,6 @@ export const ourProjects = [
   {
     image: "/images/our-projects/IIT Kanpur.jpg",
     name: "IIT Kanpur",
-  },
-  {
-    image: "/images/our-projects/IMG_8263 copy.jpg",
-  },
-  {
-    image: "/images/our-projects/IMG_8434 copy.jpg",
   },
   {
     image: "/images/our-projects/Mosque Emerald Gulistan 1.jpg",
