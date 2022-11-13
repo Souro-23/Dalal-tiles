@@ -37,7 +37,7 @@ export const featuredProducts = [
     image:
       "/images/our-products/Ledge Stone_Dry Cladding Panels_Wall Tiles.png",
     link: "",
-    nanme: "Ledge Stone Dry Cladding Panels",
+    name: "Ledge Stone Dry Cladding Panels",
   },
   {
     image: "/images/our-products/Milano_Interlocking Pavers.png",
@@ -52,7 +52,7 @@ export const featuredProducts = [
   {
     image: "/images/our-products/S Tesella_Dry Cladding Panels_Wall Tiles.png",
     link: "",
-    name: "S Tesella_Dry Cladding Panels",
+    name: "S Tesella Dry Cladding Panels",
   },
   {
     image: "/images/our-products/Tactile Tiles.png",
@@ -82,9 +82,6 @@ export const ourProjects = [
   {
     image: "/images/our-projects/Badarpur Police Station, New Delhi.jpg",
     name: "Badarpur Police Station, New Delhi",
-  },
-  {
-    image: "/images/our-projects/Edited_ - 7.jpeg",
   },
   {
     image: "/images/our-projects/Government of India Press, New Delhi.jpg",
