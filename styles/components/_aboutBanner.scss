@@ -6,7 +6,7 @@
   justify-content: flex-end;
   flex-direction: column;
 
-  background: url("/images/about-us.png");
+  background: url("/images/about-us-1.gif");
   background-size: cover;
 
   border-bottom: 1px solid #000;
@@ -20,9 +20,10 @@
     text-transform: uppercase;
     max-width: 13ch;
     letter-spacing: 0.5rem;
-    line-height: 4.5rem;
+    line-height: 3rem;
     margin-bottom: 0.2rem;
     z-index: 2;
+    letter-spacing: 2px;
   }
 
   .banner-description {

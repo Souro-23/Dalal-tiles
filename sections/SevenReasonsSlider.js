@@ -21,7 +21,7 @@ const SevenReasonsSlider = () => {
         {/* Slide 1 */}
         <SwiperSlide className="seven-reasons-slide">
           <img
-            src="/images/seven-reasons.png"
+            src="/images/seven-reasons-1.png"
             alt="Seven reasons why"
             className="slide-image"
           />

@@ -48,10 +48,16 @@ const ProductDetailsGrid = (props) => {
         </div>
         {!productImages && <img src={image} alt={name} />}
         {productImages && (
-          <>
+          <div style={{ position: "relative" }}>
             <img src={productImages[selectedProductImageIndex]} alt={name} />
             <div
-              style={{ display: "flex", justifyContent: "end" }}
+              style={{
+                display: "flex",
+                justifyContent: "end",
+                position: "absolute",
+                top: "50%",
+                rigth: "0",
+              }}
               onClick={() => {
                 setSelectedProductImageIndex(
                   (selectedProductImageIndex + 1) % productImages.length
@@ -63,7 +69,7 @@ const ProductDetailsGrid = (props) => {
                 <HiOutlineArrowRight />
               </div>
             </div>
-          </>
+          </div>
         )}
       </div>
       <div className="description-grid">

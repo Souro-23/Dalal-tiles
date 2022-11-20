@@ -53,6 +53,9 @@ const SidebarSlider = ({ products, heading, className = "" }) => {
       <p style={{ margin: "10px 0px 0px 0px" }}>
         {products[selectedProductIndex].name}
       </p>
+      <p style={{ fontSize: "14px", color: "gray" }}>
+        {products[selectedProductIndex].category}
+      </p>
     </div>
     // </div>
   );

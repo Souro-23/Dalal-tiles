@@ -26,8 +26,39 @@ const ImageSlider = (props) => {
       >
         {props.slides.map((image, index) => (
           <SwiperSlide key={index}>
-            <div className="slide">
-              <img src={image} alt="Slider Image" />
+            <div
+              className="slide"
+              style={{
+                position: "relative",
+                backgroundImage: `url(${image})`,
+                backgroundSize: "cover",
+                position: "relative",
+              }}
+            >
+              {/* <img src={image} alt="Slider Image" /> */}
+              <div
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  position: "absolute",
+                  background: "rgba(0, 0, 0,0.5)",
+                }}
+              ></div>
+              {props.textArray && (
+                <p
+                  style={{
+                    position: "absolute",
+                    bottom: "20px",
+                    left: "20px",
+                    color: "white",
+                    fontWeight: "bold",
+                    width: "60%",
+                    fontSize: "35px",
+                  }}
+                >
+                  {props.textArray[index]}
+                </p>
+              )}
             </div>
           </SwiperSlide>
         ))}

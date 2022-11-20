@@ -33,6 +33,11 @@ const Layout = ({ children, sidebar }) => {
         </motion.div>
         <motion.div
           className="sidebar"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
           initial="pageInitial"
           animate="pageAnimate"
           variants={{

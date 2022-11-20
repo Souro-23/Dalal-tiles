@@ -2,10 +2,12 @@ import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { HiOutlineArrowLeft, HiOutlineArrowRight } from "react-icons/hi";
 import { Navigation } from "swiper";
+import { useWindowDimensions } from "hooks/useWindowDimentions";
 
 const SwatchSlider = (props) => {
   const navigationPrevRef = useRef(null);
   const navigationNextRef = useRef(null);
+  const { height, width } = useWindowDimensions();
 
   return (
     <div className="swatch-slider">
@@ -35,7 +37,10 @@ const SwatchSlider = (props) => {
       >
         {props.data.map((item, index) => (
           <SwiperSlide key={index} style={{ height: "auto" }}>
-            <div className="swatch-slide">
+            <div
+              className="swatch-slide"
+              style={{ height: `${height - 520}px` }}
+            >
               <img src={item} alt={"Swatch-" + index} />
             </div>
           </SwiperSlide>

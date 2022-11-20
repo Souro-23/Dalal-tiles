@@ -23,8 +23,9 @@ const contact = () => {
             <div className="heading">
               <FaPhoneAlt /> Call us
             </div>
-            <p>+91 88364 52136</p>
-            <p>+91 88626 72833</p>
+            <p>+91 98919 24243</p>
+            <p>+91 99534 90566</p>
+            <p>+91 98112 73159 (Architect Consultant)</p>
           </div>
           <div className="contact-section">
             <div className="heading">
@@ -37,8 +38,20 @@ const contact = () => {
             <div className="heading">
               <HiLocationMarker /> Reach us
             </div>
-            <p>Plot-278, Block-H, RK Puram,</p>
-            <p>New Delhi - 110030</p>
+            <p>
+              <b>Unit 1 </b>- Bahadurgarh-Sonepat Road, V& PO Asaudah, Distt.
+              Jhajjar, Asoda Todran,
+            </p>
+            <p>Haryana - 124505</p>
+            <p>
+              <b>Unit 2</b> - Dalal Tiles Industries, HFX5+5H7, Unnamed Road,
+            </p>
+            <p> Haryana - 124106</p>
+
+            <p>
+              <b>Unit 3 </b>- JXJ8+XRG, Unnamed Road,
+            </p>
+            <p> Haryana - 134103</p>
           </div>
         </div>
         <ContactForm />

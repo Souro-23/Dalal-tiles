@@ -1,8 +1,13 @@
 import ImageSlider from "@components/ImageSlider";
+import { useWindowDimensions } from "hooks/useWindowDimentions";
 
 const ManufacturingFacility = () => {
+  const { height, width } = useWindowDimensions();
   return (
-    <div className="accordion-grid-manufacturing">
+    <div
+      className="accordion-grid-manufacturing"
+      style={{ height: `${height - 290}px` }}
+    >
       <ImageSlider
         slides={[
           "images/manufaturing-facilities/manufaturing-facilities-1.png",
@@ -10,6 +15,13 @@ const ManufacturingFacility = () => {
           "images/manufaturing-facilities/manufaturing-facilities-3.png",
           "images/manufaturing-facilities/manufaturing-facilities-4.png",
           "images/manufaturing-facilities/manufaturing-facilities-5.png",
+        ]}
+        textArray={[
+          "H2000 by HESS Machines, Germany, Commissioned at Ghaziabad, Uttar Pradesh",
+          "",
+          "Single Station Forest Press by Hess Machines Germany, Commissioned at Ghaziabad, UP",
+          "Single Station Forest Press",
+          "SPM30 by Columbia Machines, Commissioned at Jhajjar, Haryana",
         ]}
       />
       {/* <div className="grid-content">

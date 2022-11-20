@@ -107,11 +107,21 @@ const HomePageSlider = () => {
           <div className="homepage-slide">
             <p className="slide-heading">{HomePageSlides[2].title}</p>
             <p className="slide-description">{HomePageSlides[2].description}</p>
-            <img
+            {/* <img
               src={HomePageSlides[2].image}
               alt={HomePageSlides[2].title}
               className="slide-background"
-            />
+            /> */}
+            <video
+              // style={{ width: "500px", height: "500px" }}
+              autoPlay
+              loop
+              className="slide-background"
+            >
+              {/* <source src={video1} type="video/webm" /> */}
+              <source src={HomePageSlides[2].image} type="video/mp4" />
+              Sorry, your browser doesn't support videos.
+            </video>
             <Link href="/seven-reasons-why">
               <a>
                 <button className="btn btn-outline-white">Know More</button>
