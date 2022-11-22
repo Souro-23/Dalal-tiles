@@ -2,8 +2,11 @@ import Layout from "@components/Layout";
 import ConcretePaversPages from "_data/Products/ConcretePaversPages";
 import ProductDetailsGrid from "@components/ProductDetailsGrid";
 import ProductsPageSidebar from "@section/ProductsPageSidebar";
+import { useWindowDimensions } from "hooks/useWindowDimentions";
 
 const ConcretePaversPage = (props) => {
+  const { height, width } = useWindowDimensions();
+
   console.log(props);
   return (
     <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
@@ -13,6 +16,7 @@ const ConcretePaversPage = (props) => {
         <img
           src={props.data.renders[0]}
           alt="Render 1"
+          style={{ height: `${height - 470}px` }}
           className="swatch-solo"
         />
       </div>

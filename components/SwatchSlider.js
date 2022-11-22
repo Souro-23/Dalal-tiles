@@ -39,7 +39,7 @@ const SwatchSlider = (props) => {
           <SwiperSlide key={index} style={{ height: "auto" }}>
             <div
               className="swatch-slide"
-              style={{ height: `${height - 520}px` }}
+              style={{ height: `${height - 470}px` }}
             >
               <img src={item} alt={"Swatch-" + index} />
             </div>
