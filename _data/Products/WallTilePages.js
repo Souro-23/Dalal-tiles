@@ -540,10 +540,10 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-4.png",
+          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-3.jpg",
+          "/products/wall-tiles/dry-cladding-panels/autumn/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/autumn/renders/render-1.jpg",
@@ -586,9 +586,9 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/ledge-cut/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/ledge-cut/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/ledge-cut/swatches/swatch-3.png",
+          "/products/wall-tiles/dry-cladding-panels/ledge-cut/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/ledge-cut/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/ledge-cut/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/ledge-cut/renders/render-1.jpg",
@@ -630,9 +630,9 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/ledge-stone/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/ledge-stone/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/ledge-stone/swatches/swatch-3.png",
+          "/products/wall-tiles/dry-cladding-panels/ledge-stone/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/ledge-stone/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/ledge-stone/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/ledge-stone/renders/render-1.jpg",
@@ -674,10 +674,10 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-4.png",
+          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-3.jpg",
+          "/products/wall-tiles/dry-cladding-panels/p-tesella/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/p-tesella/renders/render-1.jpg",
@@ -719,10 +719,10 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-4.png",
+          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-3.jpg",
+          "/products/wall-tiles/dry-cladding-panels/scutes/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/scutes/renders/render-1.jpg",
@@ -764,10 +764,10 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-4.png",
+          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-3.jpg",
+          "/products/wall-tiles/dry-cladding-panels/s-tesella/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/s-tesella/renders/render-1.jpg",
@@ -814,10 +814,10 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-4.png",
+          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-3.jpg",
+          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/tyde/renders/render-1.jpg",
@@ -859,11 +859,11 @@ const WallTilePages = [
           areaF: "10.76",
         },
         swatches: [
-          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-1.png",
-          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-2.png",
-          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-4.png",
-          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-5.png",
+          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-1.jpg",
+          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-2.jpg",
+          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-3.jpg",
+          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-4.jpg",
+          "/products/wall-tiles/dry-cladding-panels/v-flute/swatches/swatch-5.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/v-flute/renders/render-1.jpg",
@@ -913,9 +913,9 @@ const WallTilePages = [
           areaF: "2.91",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-panel/arcade/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-panel/arcade/renders/render-1.jpg",
@@ -956,10 +956,10 @@ const WallTilePages = [
           areaF: "5.81",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-panel/ridges/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-panel/ridges/renders/render-1.jpg",
@@ -1013,9 +1013,9 @@ const WallTilePages = [
           areaF: "0.21",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/altpyra/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/altpyra/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/altpyra/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-tiles/altpyra/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/altpyra/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/altpyra/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/altpyra/renders/render-1.jpg",
@@ -1057,10 +1057,10 @@ const WallTilePages = [
           areaF: "0.34",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/bamboo/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/bamboo/renders/render-1.jpg",
@@ -1101,10 +1101,10 @@ const WallTilePages = [
           areaF: "0.31",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/burrow/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/burrow/renders/render-1.jpg",
@@ -1146,10 +1146,10 @@ const WallTilePages = [
           areaF: "0.25",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/cliff-stone/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/cliff-stone/renders/render-1.jpg",
@@ -1191,10 +1191,10 @@ const WallTilePages = [
           areaF: "0.17",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/coarse-stone/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/coarse-stone/renders/render-1.jpg",
@@ -1235,9 +1235,9 @@ const WallTilePages = [
           areaF: "0.29",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/country-stone/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/country-stone/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/country-stone/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-tiles/country-stone/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/country-stone/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/country-stone/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/country-stone/renders/render-1.jpg",
@@ -1278,9 +1278,9 @@ const WallTilePages = [
           areaF: "0.13",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/curve-weave/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/curve-weave/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/curve-weave/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-tiles/curve-weave/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/curve-weave/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/curve-weave/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/curve-weave/renders/render-1.jpg",
@@ -1322,10 +1322,10 @@ const WallTilePages = [
           areaF: "0.31",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/furrow-cut/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/furrow-cut/renders/render-1.jpg",
@@ -1367,9 +1367,9 @@ const WallTilePages = [
           areaF: "0.12",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/grit-wave/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/grit-wave/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/grit-wave/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-tiles/grit-wave/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/grit-wave/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/grit-wave/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/grit-wave/renders/render-1.jpg",
@@ -1410,9 +1410,9 @@ const WallTilePages = [
           areaF: "0.19",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/hembrick/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/hembrick/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/hembrick/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-tiles/hembrick/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/hembrick/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/hembrick/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/hembrick/renders/render-1.jpg",
@@ -1454,10 +1454,10 @@ const WallTilePages = [
           areaF: "0.35",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-3.png",
-          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-4.png",
+          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-3.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/sierra/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/sierra/renders/render-1.jpg",
@@ -1498,9 +1498,9 @@ const WallTilePages = [
           areaF: "0.019",
         },
         swatches: [
-          "/products/wall-tiles/wet-cladding-tiles/zenbrick/swatches/swatch-1.png",
-          "/products/wall-tiles/wet-cladding-tiles/zenbrick/swatches/swatch-2.png",
-          "/products/wall-tiles/wet-cladding-tiles/zenbrick/swatches/swatch-3.png",
+          "/products/wall-tiles/wet-cladding-tiles/zenbrick/swatches/swatch-1.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/zenbrick/swatches/swatch-2.jpg",
+          "/products/wall-tiles/wet-cladding-tiles/zenbrick/swatches/swatch-3.jpg",
         ],
         renders: [
           "/products/wall-tiles/wet-cladding-tiles/zenbrick/renders/render-1.jpg",

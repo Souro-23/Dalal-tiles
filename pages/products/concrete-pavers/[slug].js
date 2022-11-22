@@ -3,6 +3,7 @@ import ConcretePaversPages from "_data/Products/ConcretePaversPages";
 import ProductDetailsGrid from "@components/ProductDetailsGrid";
 import ProductsPageSidebar from "@section/ProductsPageSidebar";
 import { useWindowDimensions } from "hooks/useWindowDimentions";
+import SwatchSlider from "@components/SwatchSlider";
 
 const ConcretePaversPage = (props) => {
   const { height, width } = useWindowDimensions();
@@ -11,15 +12,19 @@ const ConcretePaversPage = (props) => {
   return (
     <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
       <ProductDetailsGrid data={props.data} />
-      {/* <SwatchSlider data={props.data.swatches} /> */}
-      <div className="swatch-slider">
-        <img
-          src={props.data.renders[0]}
-          alt="Render 1"
-          style={{ height: `${height - 470}px` }}
-          className="swatch-solo"
-        />
-      </div>
+
+      {props.data.swatches.length > 0 ? (
+        <SwatchSlider data={props.data.swatches} />
+      ) : (
+        <div className="swatch-slider">
+          <img
+            src={props.data.renders[0]}
+            alt="Render 1"
+            style={{ height: `${height - 470}px` }}
+            className="swatch-solo"
+          />
+        </div>
+      )}
     </Layout>
   );
 };

@@ -190,7 +190,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/box-weave/renders/render-1.jpg",
           "/products/concrete-pavers/chequered-tiles/box-weave/renders/render-2.jpg",
           "/products/concrete-pavers/chequered-tiles/box-weave/renders/render-3.jpg",
-          "/products/concrete-pavers/chequered-tiles/box-weave/renders/render-4.jpg",
+          // "/products/concrete-pavers/chequered-tiles/box-weave/renders/render-4.jpg",
         ],
         downloadPdf: "#",
         download3d: "#",
@@ -585,7 +585,14 @@ const ConcretePaversPages = [
           areaM: "0.0246",
           areaF: "0.264",
         },
-        swatches: [],
+        swatches: [
+          "/products/concrete-pavers/interlocking/dumbell/swatches/1.png",
+          "/products/concrete-pavers/interlocking/dumbell/swatches/2.png",
+          "/products/concrete-pavers/interlocking/dumbell/swatches/3.png",
+          "/products/concrete-pavers/interlocking/dumbell/swatches/4.png",
+          "/products/concrete-pavers/interlocking/dumbell/swatches/5.png",
+          "/products/concrete-pavers/interlocking/dumbell/swatches/6.png",
+        ],
         renders: [
           "/products/concrete-pavers/interlocking/dumbell/renders/render-1.jpg",
           "/products/concrete-pavers/interlocking/dumbell/renders/render-2.jpg",
@@ -622,7 +629,14 @@ const ConcretePaversPages = [
           areaM: "0.03174",
           areaF: "0.34",
         },
-        swatches: [],
+        swatches: [
+          "/products/concrete-pavers/interlocking/hexagon/swatches/Hexa colour combination_8.png",
+          "/products/concrete-pavers/interlocking/hexagon/swatches/Hexa colour combination_9.png",
+          "/products/concrete-pavers/interlocking/hexagon/swatches/Hexa colour combination_10.png",
+          "/products/concrete-pavers/interlocking/hexagon/swatches/Hexa colour combination_11.png",
+          "/products/concrete-pavers/interlocking/hexagon/swatches/Hexa colour combination_12.png",
+          "/products/concrete-pavers/interlocking/hexagon/swatches/Hexa combi.png",
+        ],
         renders: [
           "/products/concrete-pavers/interlocking/hexagon/renders/render-1.jpg",
           "/products/concrete-pavers/interlocking/hexagon/renders/render-2.jpg",
@@ -704,7 +718,14 @@ const ConcretePaversPages = [
           areaM: "0.02",
           areaF: "0.21",
         },
-        swatches: [],
+        swatches: [
+          "/products/concrete-pavers/interlocking/rectangle/swatches/BP7.png",
+          "/products/concrete-pavers/interlocking/rectangle/swatches/BP8.png",
+          "/products/concrete-pavers/interlocking/rectangle/swatches/BP9.png",
+          "/products/concrete-pavers/interlocking/rectangle/swatches/BP10.png",
+          "/products/concrete-pavers/interlocking/rectangle/swatches/BP11.png",
+          "/products/concrete-pavers/interlocking/rectangle/swatches/BP12.png",
+        ],
         renders: [
           "/products/concrete-pavers/interlocking/rectangle/renders/render-1.jpg",
           "/products/concrete-pavers/interlocking/rectangle/renders/render-2.jpg",
@@ -749,7 +770,14 @@ const ConcretePaversPages = [
           areaM: "0.01",
           areaF: "0.107",
         },
-        swatches: [],
+        swatches: [
+          "/products/concrete-pavers/interlocking/square/swatches/6.png",
+          "/products/concrete-pavers/interlocking/square/swatches/7.png",
+          "/products/concrete-pavers/interlocking/square/swatches/9.png",
+          "/products/concrete-pavers/interlocking/square/swatches/10.png",
+          "/products/concrete-pavers/interlocking/square/swatches/11.png",
+          "/products/concrete-pavers/interlocking/square/swatches/12.png",
+        ],
         renders: [
           "/products/concrete-pavers/interlocking/square/renders/render-1.jpg",
           "/products/concrete-pavers/interlocking/square/renders/render-2.jpg",
@@ -823,7 +851,14 @@ const ConcretePaversPages = [
           areaM: "0.0529",
           areaF: "0.57",
         },
-        swatches: [],
+        swatches: [
+          "/products/concrete-pavers/interlocking/tri-hexa/swatches/1.png",
+          "/products/concrete-pavers/interlocking/tri-hexa/swatches/2.png",
+          "/products/concrete-pavers/interlocking/tri-hexa/swatches/3.png",
+          "/products/concrete-pavers/interlocking/tri-hexa/swatches/4.png",
+          "/products/concrete-pavers/interlocking/tri-hexa/swatches/5.png",
+          "/products/concrete-pavers/interlocking/tri-hexa/swatches/6.png",
+        ],
         renders: [
           "/products/concrete-pavers/interlocking/tri-hexa/renders/render-1.jpg",
           "/products/concrete-pavers/interlocking/tri-hexa/renders/render-2.jpg",
@@ -836,7 +871,7 @@ const ConcretePaversPages = [
       },
       {
         slug: "zig-zag",
-        name: "Zg Zag",
+        name: "Zig Zag",
         image: "/products/concrete-pavers/interlocking/zig-zag/zig-zag.png",
         textures: [
           {
@@ -860,7 +895,14 @@ const ConcretePaversPages = [
           areaM: "0.03174",
           areaF: "0.34",
         },
-        swatches: [],
+        swatches: [
+          "/products/concrete-pavers/interlocking/zig-zag/swatches/ZigZag colour combination_7.png",
+          "/products/concrete-pavers/interlocking/zig-zag/swatches/ZigZag colour combination_8.png",
+          "/products/concrete-pavers/interlocking/zig-zag/swatches/ZigZag colour combination_8.png",
+          "/products/concrete-pavers/interlocking/zig-zag/swatches/ZigZag colour combination_10.png",
+          "/products/concrete-pavers/interlocking/zig-zag/swatches/ZigZag colour combination_11.png",
+          "/products/concrete-pavers/interlocking/zig-zag/swatches/ZigZag colour combination_13.png",
+        ],
         renders: [
           "/products/concrete-pavers/interlocking/zig-zag/renders/render-1.jpg",
           "/products/concrete-pavers/interlocking/zig-zag/renders/render-2.jpg",
