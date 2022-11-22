@@ -55,8 +55,8 @@ const ProductDetailsGrid = (props) => {
                 display: "flex",
                 justifyContent: "end",
                 position: "absolute",
-                top: "50%",
-                rigth: "0",
+                top: "30%",
+                right: "3px",
               }}
               onClick={() => {
                 setSelectedProductImageIndex(

@@ -817,7 +817,7 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-1.jpg",
           "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-2.jpg",
           "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-3.jpg",
-          "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-4.jpg",
+          // "/products/wall-tiles/dry-cladding-panels/tyde/swatches/swatch-4.jpg",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-panels/tyde/renders/render-1.jpg",
