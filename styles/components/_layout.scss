@@ -4,7 +4,7 @@
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 70px calc(80% - 35px) calc(20% - 35px);
-  grid-template-rows: 70px auto 48px;
+  grid-template-rows: 70px calc(100% - 118px) 48px;
   gap: 0px 0px;
   grid-template-areas:
     "side-nav navbar call-now"
