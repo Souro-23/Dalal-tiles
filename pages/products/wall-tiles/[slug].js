@@ -7,7 +7,7 @@ import ProductsPageSidebar from "@section/ProductsPageSidebar";
 const WallTilesPages = (props) => {
   return (
     <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
-      <ProductDetailsGrid data={props.data} />
+      <ProductDetailsGrid productCategory={"Wall Tiles"} data={props.data} />
       <SwatchSlider data={props.data.swatches} />
     </Layout>
   );

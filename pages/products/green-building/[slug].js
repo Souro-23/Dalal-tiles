@@ -7,7 +7,10 @@ import GreenBuildingDetailsGrid from "@components/GreenBuildingDetailsGrid";
 const GreenBuildingPage = (props) => {
   return (
     <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
-      <GreenBuildingDetailsGrid data={props.data} />
+      <GreenBuildingDetailsGrid
+        productCategory={"Green Building"}
+        data={props.data}
+      />
 
       <div className="green-building-description">
         <div dangerouslySetInnerHTML={{ __html: props.data.description }} />

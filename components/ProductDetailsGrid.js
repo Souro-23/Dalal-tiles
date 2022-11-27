@@ -19,6 +19,8 @@ const ProductDetailsGrid = (props) => {
     productImages,
   } = props.data;
 
+  const { productCategory } = props;
+
   console.log(props.data.productImages);
   const router = useRouter();
 
@@ -194,7 +196,7 @@ const ProductDetailsGrid = (props) => {
               <div>
                 <p>Product Category</p>
                 <div className="block-content">
-                  <p>Wall Tiles</p>
+                  <p>{productCategory}</p>
                 </div>
               </div>
 

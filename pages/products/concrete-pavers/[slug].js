@@ -11,7 +11,10 @@ const ConcretePaversPage = (props) => {
   console.log(props);
   return (
     <Layout sidebar={<ProductsPageSidebar slider={props.data.renders} />}>
-      <ProductDetailsGrid data={props.data} />
+      <ProductDetailsGrid
+        productCategory={"Concrete Pavers"}
+        data={props.data}
+      />
 
       {props.data.swatches.length > 0 ? (
         <SwatchSlider data={props.data.swatches} />

@@ -1,5 +1,5 @@
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
+import { FaPhoneAlt, FaEnvelope, FaMapPin } from "react-icons/fa";
+import { HiLocationMarker, HiOutlineMap } from "react-icons/hi";
 import Layout from "@components/Layout";
 import ContactForm from "@section/ContactForm";
 import HomePageSidebar from "@section/HomePageSidebar";
@@ -42,16 +42,50 @@ const contact = () => {
               <b>Unit 1 </b>- Bahadurgarh-Sonepat Road, V& PO Asaudah, Distt.
               Jhajjar, Asoda Todran,
             </p>
-            <p>Haryana - 124505</p>
             <p>
-              <b>Unit 2</b> - Dalal Tiles Industries, HFX5+5H7, Unnamed Road,
+              Haryana - 124505{" "}
+              <a
+                href="https://maps.app.goo.gl/V9SFTRjJzYW8DdRo9"
+                target="_blank"
+                rel="noreferrer"
+                className="detail-btn"
+                style={{ textDecoration: "underline" }}
+              >
+                location <FaMapPin />
+              </a>
             </p>
-            <p> Haryana - 124106</p>
-
             <p>
-              <b>Unit 3 </b>- JXJ8+XRG, Unnamed Road,
+              <b>Unit 2</b> - Dalal Tiles Industries, HFX5+5H7,
             </p>
-            <p> Haryana - 134103</p>
+            <p>
+              {" "}
+              Haryana - 124106{" "}
+              <a
+                href="https://maps.app.goo.gl/neZUDud9Vs9NKjrPA"
+                target="_blank"
+                rel="noreferrer"
+                className="detail-btn"
+                style={{ textDecoration: "underline" }}
+              >
+                location <FaMapPin />
+              </a>
+            </p>
+            <p>
+              <b>Unit 3 </b>- JXJ8+XRG,
+            </p>
+            <p>
+              {" "}
+              Haryana - 134103{" "}
+              <a
+                href="https://maps.app.goo.gl/RRmhWYSVXzuD68Zf7"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "underline" }}
+                className="detail-btn"
+              >
+                location <FaMapPin />
+              </a>
+            </p>
           </div>
         </div>
         <ContactForm />
