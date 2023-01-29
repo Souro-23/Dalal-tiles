@@ -4,7 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 const CallNow = () => {
   return (
     <div className="call-now">
-      <Link href="tel:+918836452136">
+      <Link href="tel:+919891924243">
         <a>
           <FaPhoneAlt />
           Call Now

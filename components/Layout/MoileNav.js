@@ -22,7 +22,7 @@ const MobileNav = () => {
           Book a visit
         </a> */}
         <div className="call-btn">
-          <Link href="tel:+918836452136">
+          <Link href="tel:+919891924243">
             <a>
               <FaPhoneAlt />
             </a>
