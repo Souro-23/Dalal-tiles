@@ -25,9 +25,14 @@ const SidebarSlider = ({ products, heading, className = "" }) => {
         <div className="nav-buttons">
           <div
             onClick={() => {
-              setSelectedProductIndex(
-                (selectedProductIndex - 1) % products.length
-              );
+              if (selectedProductIndex === 0) { 
+                setSelectedProductIndex(products.length-1)
+              }
+              else {
+                setSelectedProductIndex(
+                  (selectedProductIndex - 1) % products.length
+                );
+              }   
             }}
           >
             <HiOutlineArrowLeft />

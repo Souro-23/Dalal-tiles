@@ -48,7 +48,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "abstre",
@@ -92,7 +92,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "altrec",
@@ -127,7 +127,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/altrec/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/altrec/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/altrec/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/altrec/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/altrec/renders/render-1.jpg",
@@ -137,7 +136,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "anglefish",
@@ -173,7 +172,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/anglefish/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/anglefish/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/anglefish/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/anglefish/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/anglefish/renders/render-1.jpg",
@@ -183,7 +181,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "crosquare",
@@ -219,7 +217,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/crosquare/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/crosquare/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/crosquare/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/crosquare/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/crosquare/renders/render-1.jpg",
@@ -229,7 +226,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "hexchain",
@@ -264,7 +261,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/hexchain/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/hexchain/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/hexchain/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/hexchain/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/hexchain/renders/render-1.jpg",
@@ -274,7 +270,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "hexstar",
@@ -310,7 +306,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/hexstar/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/hexstar/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/hexstar/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/hexstar/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/hexstar/renders/render-1.jpg",
@@ -320,7 +315,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "mapell",
@@ -355,7 +350,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/mapell/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/mapell/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/mapell/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/mapell/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/mapell/renders/render-1.jpg",
@@ -365,7 +359,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "peepal",
@@ -406,11 +400,10 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/peepal/renders/render-1.jpg",
           "/products/wall-tiles/dry-cladding-forms/peepal/renders/render-2.jpg",
           "/products/wall-tiles/dry-cladding-forms/peepal/renders/render-3.jpg",
-          "/products/wall-tiles/dry-cladding-forms/peepal/renders/render-4.jpg",
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "pinwheel",
@@ -445,7 +438,6 @@ const WallTilePages = [
           "/products/wall-tiles/dry-cladding-forms/pinwheel/swatches/swatch-1.png",
           "/products/wall-tiles/dry-cladding-forms/pinwheel/swatches/swatch-2.png",
           "/products/wall-tiles/dry-cladding-forms/pinwheel/swatches/swatch-3.png",
-          "/products/wall-tiles/dry-cladding-forms/pinwheel/swatches/swatch-4.png",
         ],
         renders: [
           "/products/wall-tiles/dry-cladding-forms/pinwheel/renders/render-1.jpg",
@@ -455,7 +447,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "trihex",
@@ -499,7 +491,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },
@@ -553,7 +545,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "ledge-cut",
@@ -597,7 +589,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "ledge-stone",
@@ -641,7 +633,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "p-tesella",
@@ -687,7 +679,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "scutes",
@@ -731,7 +723,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "s-tesella",
@@ -777,7 +769,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "tyde",
@@ -827,7 +819,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "v-flute",
@@ -873,7 +865,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },
@@ -924,7 +916,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "ridges",
@@ -968,7 +960,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },
@@ -1025,7 +1017,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "bamboo",
@@ -1069,7 +1061,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "burrow",
@@ -1113,7 +1105,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "cliff-stone",
@@ -1158,7 +1150,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "coarse-stone",
@@ -1202,7 +1194,7 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/coarse-stone/renders/render-3.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "country-stone",
@@ -1245,7 +1237,7 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/country-stone/renders/render-3.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "curve-weave",
@@ -1289,7 +1281,7 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/curve-weave/renders/render-4.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "furrow-cut",
@@ -1334,7 +1326,7 @@ const WallTilePages = [
           "/products/wall-tiles/wet-cladding-tiles/furrow-cut/renders/render-4.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "grit-wave",
@@ -1378,7 +1370,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "hembrick",
@@ -1422,7 +1414,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "sierra",
@@ -1466,7 +1458,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "zenbrick",
@@ -1510,7 +1502,7 @@ const WallTilePages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/1Z8B2vh3Ojf0Dvsz7prfFfZP5t7LC8cdo/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },

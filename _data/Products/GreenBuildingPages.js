@@ -28,7 +28,7 @@ const GreenBuildingPages = [
       },
       thermal: 0.38,
       downloadPdf: "https://drive.google.com/file/d/1WEk8XtIQG0nrdt27nA2csR0mElSej-Hv/view?usp=sharing",
-      download3d: "#",
+      download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
     },
   },
   {
@@ -59,7 +59,7 @@ const GreenBuildingPages = [
       },
       thermal: 0.38,
       downloadPdf: "https://drive.google.com/file/d/1WEk8XtIQG0nrdt27nA2csR0mElSej-Hv/view?usp=sharing",
-      download3d: "#",
+      download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
     },
   },
   {
@@ -90,7 +90,7 @@ const GreenBuildingPages = [
       },
       thermal: 0.38,
       downloadPdf: "https://drive.google.com/file/d/1WEk8XtIQG0nrdt27nA2csR0mElSej-Hv/view?usp=sharing",
-      download3d: "#",
+      download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
     },
   },
 ];

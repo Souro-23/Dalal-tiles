@@ -1,18 +1,20 @@
 import { useState } from "react";
 import { NavLink } from "./Navlink";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 import { FaPhoneAlt } from "react-icons/fa";
 import { RiMenu3Line } from "react-icons/ri";
 import { CgClose } from "react-icons/cg";
+import Link from "next/link";
+
 
 const MobileNav = () => {
   const [isActive, setIsActive] = useState(false);
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <>
       <div className="mobile-nav">
-        <div onClick={()=>router.push('/')} className="logo">
+        <div onClick={() => router.push("/")} className="logo">
           <img src="/dalal-tiles.png" />
         </div>
 
@@ -20,7 +22,11 @@ const MobileNav = () => {
           Book a visit
         </a> */}
         <div className="call-btn">
-          <FaPhoneAlt />
+          <Link href="tel:+918836452136">
+            <a>
+              <FaPhoneAlt />
+            </a>
+          </Link>
         </div>
 
         <RiMenu3Line

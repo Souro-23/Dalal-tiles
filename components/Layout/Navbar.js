@@ -1,5 +1,7 @@
 import { NavLink } from "./Navlink";
 import { FaPhoneAlt } from "react-icons/fa";
+import Link from "next/link";
+
 
 const Navbar = () => {
   return (
@@ -26,7 +28,11 @@ const Navbar = () => {
         Book a visit
       </a> */}
       <div className="call-btn">
-        <FaPhoneAlt />
+        <Link href="tel:+918836452136">
+          <a>
+            <FaPhoneAlt />
+          </a>
+        </Link>
       </div>
     </div>
   );

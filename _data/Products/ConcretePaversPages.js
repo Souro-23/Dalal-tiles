@@ -41,7 +41,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "324-boxes-plains",
@@ -79,7 +79,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "airport",
@@ -120,7 +120,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "boxes-flower",
@@ -156,7 +156,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/boxes-flower/renders/render-3.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "box-weave",
@@ -193,7 +193,7 @@ const ConcretePaversPages = [
           // "/products/concrete-pavers/chequered-tiles/box-weave/renders/render-4.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "corner-cut",
@@ -230,7 +230,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/corner-cut/renders/render-4.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "crossline",
@@ -267,7 +267,7 @@ const ConcretePaversPages = [
           "/products/concrete-pavers/chequered-tiles/crossline/renders/render-4.jpg",
         ],
         downloadPdf: "#",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "diagonal-stripes",
@@ -305,7 +305,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "ludo",
@@ -343,7 +343,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },
@@ -388,7 +388,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "rhombus-paver",
@@ -425,7 +425,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "x-paver",
@@ -461,7 +461,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },
@@ -510,7 +510,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "cobble",
@@ -553,7 +553,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "dumbell",
@@ -601,7 +601,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "hexagon",
@@ -645,7 +645,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "milano",
@@ -682,7 +682,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "rectangle",
@@ -734,7 +734,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "square",
@@ -786,7 +786,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "tactile-tiles",
@@ -823,7 +823,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "tri-hexa",
@@ -867,7 +867,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
       {
         slug: "zig-zag",
@@ -911,7 +911,7 @@ const ConcretePaversPages = [
         ],
         downloadPdf:
           "https://drive.google.com/file/d/10DN9JWBUw6XSHb7TSByuyblv4C0nYqwL/view?usp=sharing",
-        download3d: "#",
+        download3d: "https://drive.google.com/file/d/1fH819NO7FqIjfdf-RIUGrtdK3LM2HXn0/view",
       },
     ],
   },
